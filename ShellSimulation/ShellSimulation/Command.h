@@ -8,8 +8,7 @@
 
 namespace Command
 {
-	using CommandFun = int(const std::deque<std::string> &args);
-	using pCommandFun = CommandFun *;
+	using CommandFun = int(*)(const std::deque<std::string> &args);
 	using Command2Fun = std::pair<std::string, pCommandFun>;
 	using CommandMap = std::map<std::string, pCommandFun>;
 
