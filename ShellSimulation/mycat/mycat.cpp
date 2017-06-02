@@ -2,19 +2,26 @@
 // Created by fuookami on 17-5-30.
 //
 
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
 #include <iostream>
-#include <fstream>
+
+static const unsigned int BuffLen = 256;
 
 int main(int argc, char *argv[])
 {
-	std::ifstream fin(argv[1]);
-	if (!fin.is_open())
+	int fileCode = open(argv[1], O_RDONLY);
+	if (fileCode == -1)
 	{
-		std::cout << argv[1];
 		return 3;
 	}
 
-	std::cout << fin.rdbuf();
-	fin.close();
+	char *buff(new char [BuffLen]);
+	ssize_t readNum(0);
+	while ((readNum = read(fileCode, (void *)buff, BuffLen)) != 0)
+	{
+		std::cout << buff;
+	}
 	return 0;
 }
