@@ -19,9 +19,12 @@ namespace Command
 	{
 		EXIT = -1,
 		NO_ERROR = 0,
-		CMD_ERROR = 1,
-		ARG_ERROR = 2,
-		FILE_CAN_NOT_FOUNT = 3
+		CMD_ERROR,
+		ARG_ERROR,
+		FILE_CAN_NOT_FOUNT,
+	    FILE_CAN_NOT_BE_READ,
+	    FILE_CAN_NOT_BE_CREATED,
+	    FILE_CAN_NOT_BE_WRITEN,
 	};
 
 	int myecho(std::ostream &out, const std::deque<std::string> &args);

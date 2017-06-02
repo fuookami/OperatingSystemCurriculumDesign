@@ -42,18 +42,23 @@ void Cmd::printRet(const std::string &command, const Retcode retCode)
 {
 	switch (retCode)
 	{
-	case Command::Retcodes::ARG_ERROR:
-		out << "Illegal Arguments" << std::endl;
-		break;
-	case Command::Retcodes::CMD_ERROR:
-		out << command << " : command not fount" << std::endl;
-		break;
-	case Command::Retcodes::FILE_CAN_NOT_FOUNT:
-		out << "File can not be fount" << std::endl;
-		break;
-	case Command::Retcodes::EXIT:
-	case Command::Retcodes::NO_ERROR:
-	default:
-		break;
+		case Command::Retcodes::ARG_ERROR:
+			out << " : illegal argument" << std::endl;
+			break;
+		case Command::Retcodes::CMD_ERROR:
+			out << command << " : command not fount" << std::endl;
+			break;
+		case Command::Retcodes::FILE_CAN_NOT_FOUNT:
+			out << " : file can not be fount" << std::endl;
+			break;
+		case Command::Retcodes::FILE_CAN_NOT_BE_READ:
+			out << " : fIle can not be read" << std::endl;
+			break;
+		case Command::Retcodes::FILE_CAN_NOT_BE_CREATED:
+			out << " : file can not be created" << std::endl;
+		case Command::Retcodes::EXIT:
+		case Command::Retcodes::NO_ERROR:
+		default:
+			break;
 	}
 }
