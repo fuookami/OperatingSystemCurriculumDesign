@@ -25,3 +25,22 @@ int Command::myexit(std::ostream &out, const std::deque<std::string> &args)
         return -1;
     }
 }
+
+int mysys(const std::string &command, const std::deque<std::string> &args)
+{
+	char **argv(new char *[args.size() + 1]);
+	argv[args.size()] = NULL;
+	for (unsigned long i(0), j(args.size()); i != j; ++i)
+	{
+		argv[i] = const_cast<char *>(args[i].c_str());
+	}
+
+	pid_t pid;
+	pid = fork();
+	if (pid == 0)
+	{
+		execvp(("/bin/" + command).c_str(), argv);
+		delete[] argv;
+	}
+	return 0;
+}

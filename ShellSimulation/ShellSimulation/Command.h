@@ -31,6 +31,7 @@ namespace Command
 	int mycat(std::ostream &out, const std::deque<std::string> &args);
 	int mycp(std::ostream &out, const std::deque<std::string> &args);
 	int myexit(std::ostream &out, const std::deque<std::string> &args);
+	int mysys(const std::string &command, const std::deque<std::string> &args);
 
 	static const CommandMap commandMap(
 	{
