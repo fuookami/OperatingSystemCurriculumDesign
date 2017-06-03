@@ -24,26 +24,34 @@ void Console::run(std::istream &in, std::ostream &out)
 	return;
 }
 
-std::deque<std::string> split(const std::string &source)
+std::deque<std::string> split(const std::string &str)
 {
-    // todo add rego to ""
-
-	size_t las(0), pos(0);
-	std::deque<std::string> dest;
-	for (; (pos = source.find(str, pos)) != std::string::npos; )
+	std::deque<std::string> ret;
+	static const std::vector<std::regex> regexs = {
+		std::regex(std::string("\"[^\"]*\"")),
+		std::regex(std::string("[\\S]*[\\s]?")),
+	};
+	for (std::string::const_iterator currIt(str.cbegin()),
+		     edIt(str.cend()); currIt != edIt; )
 	{
-		if (las != pos)
+		if (isspace(*currIt))
 		{
-			dest.push_back(std::string(source, las, pos - las));
+			++currIt;
+			continue;
 		}
-		pos += str.size();
-		las = pos;
-	}
-	std::string temp(std::string(source, las, source.size() - las));
-	if (!temp.empty() && temp != str)
-	{
-		dest.push_back(move(temp));
+
+		for (unsigned long i(0), j(regexs.size()); i != j; ++i)
+		{
+			std::cout << i << std::endl;
+			std::smatch cm;
+			if (regex_search(currIt, edIt, cm, regexs[i], std::regex_constants::match_continuous))
+			{
+				currIt += cm[0].str().size();
+				ret.push_back(std::move(cm[0].str()));
+				break;
+			}
+		}
 	}
 
-	return std::move(dest);
+	return std::move(ret);
 }
