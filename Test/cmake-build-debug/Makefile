@@ -162,6 +162,19 @@ myecho/fast:
 	$(MAKE) -f bin/myecho/CMakeFiles/myecho.dir/build.make bin/myecho/CMakeFiles/myecho.dir/build
 .PHONY : myecho/fast
 
+#=============================================================================
+# Target rules for targets named pi1
+
+# Build rule for target.
+pi1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pi1
+.PHONY : pi1
+
+# fast build rule for target.
+pi1/fast:
+	$(MAKE) -f bin/pi1/CMakeFiles/pi1.dir/build.make bin/pi1/CMakeFiles/pi1.dir/build
+.PHONY : pi1/fast
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -201,6 +214,7 @@ help:
 	@echo "... mycat"
 	@echo "... mycp"
 	@echo "... myecho"
+	@echo "... pi1"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

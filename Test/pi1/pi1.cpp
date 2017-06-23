@@ -10,10 +10,12 @@ void *computePi(void *arg)
 {
 	double *ret = new double;
 
-	bool positive(arg[1] % 4 == 1);
-	for (unsigned long i(arg[1]), j(arg[0]); i != j; i -= 2)
+	unsigned long *args = (unsigned long *)arg;
+	bool positive(args[1] % 4 == 1);
+	for (unsigned long i(args[1]), j(args[0] - 2); i != j; i -= 2)
 	{
-		ret += (positive ? 1 : -1) * i;
+		*ret += (positive ? 1 : -1) * 1.0 / i;
+		std::cout << *ret << std::endl;
 		positive = !positive;
 	}
 
@@ -23,9 +25,9 @@ void *computePi(void *arg)
 
 int main(int argc, char *argv[])
 {
+	unsigned long num[2] = {1, 9999};
+	double *rh((double *)computePi((void *)num));
 
-
-	double *rh();
-
+	std::cout << *rh * 4;
 	return 0;
 }

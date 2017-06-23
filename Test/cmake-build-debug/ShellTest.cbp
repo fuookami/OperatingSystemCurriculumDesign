@@ -5,7 +5,7 @@
 		<Option title="ShellTest"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\mycat\;CMake Files\mycp\;CMake Files\myecho\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\mycat\;CMake Files\mycp\;CMake Files\myecho\;CMake Files\pi1\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug"/>
@@ -229,6 +229,54 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/myecho/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="pi1">
+				<Option output="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/pi1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/Makefile&quot;  VERBOSE=1 pi1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pi1/fast">
+				<Option output="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/pi1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/Makefile&quot;  VERBOSE=1 pi1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/mycat/mycat.cpp">
 			<Option target="mycat"/>
@@ -238,6 +286,9 @@
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/myecho/myecho.cpp">
 			<Option target="myecho"/>
+		</Unit>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/pi1/pi1.cpp">
+			<Option target="pi1"/>
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/main.cpp">
 			<Option target="app"/>
@@ -253,6 +304,9 @@
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/myecho/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\myecho\"/>
+		</Unit>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/pi1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pi1\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
