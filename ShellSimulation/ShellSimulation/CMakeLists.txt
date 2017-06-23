@@ -1,1 +1,1 @@
-add_executable(app main.cpp)
+add_executable(app main.cpp Cmd.cpp Command.cpp Console.cpp)
