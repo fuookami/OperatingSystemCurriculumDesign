@@ -1,0 +1,4 @@
+/home/fuookami/文档/ProgramFile/Clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug

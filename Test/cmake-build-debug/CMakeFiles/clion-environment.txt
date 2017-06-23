@@ -1,0 +1,2 @@
+Options: 
+CMake: 3.7.2@/home/fuookami/文档/ProgramFile/Clion/bin/cmake/bin/cmake

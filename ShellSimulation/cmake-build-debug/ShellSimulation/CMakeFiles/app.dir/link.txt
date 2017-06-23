@@ -1,0 +1,1 @@
+/usr/bin/clang++   -std=c++11 -g   CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/Cmd.cpp.o CMakeFiles/app.dir/Command.cpp.o CMakeFiles/app.dir/Console.cpp.o  -o app 
