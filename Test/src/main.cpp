@@ -5,13 +5,15 @@
 #include <deque>
 #include <string>
 #include <regex>
+#include <random>
+#include "MultiThreadSort.h"
 
 char szWorkDir[256] = {0} ;
 
 void myecho_test()
 {
 	std::string echoPath(szWorkDir);
-	echoPath += "/bin/myecho";
+	echoPath += "/bin/";
 	execl(echoPath.c_str(), "myecho", "app1", NULL);
 	return;
 }
@@ -20,7 +22,7 @@ void mycat_test()
 {
 	std::string catPath(szWorkDir);
 	std::string dirPathCopy(szWorkDir);
-	catPath += "/bin/mycat";
+	catPath += "/bin/";
 	dirPathCopy += "/test.txt";
 	execl(catPath.c_str(), "mycat", dirPathCopy.c_str(), NULL);
 }
@@ -30,7 +32,7 @@ void mycp_test()
 	std::string cpPath(szWorkDir);
 	std::string inFilePath(szWorkDir);
 	std::string outFilePath(szWorkDir);
-	cpPath += "/bin/mycp";
+	cpPath += "/bin/";
 	inFilePath += "/test.txt";
 	outFilePath += "/out.txt";
 	execl(cpPath.c_str(), "mycp", inFilePath.c_str(), outFilePath.c_str(), NULL);
@@ -105,13 +107,33 @@ void split_test()
 		std::cout << i << " : " << result[i] << std::endl;
 }
 
+void sort_test()
+{
+	std::random_device rd;
+	std::vector<int> nums;
+	for (unsigned long i(0), j(10); i != j; ++i)
+	{
+		nums.push_back(rd() % 20);
+		std::cout << nums[i] << ' ';
+	}
+	std::cout << std::endl;
+
+
+	MultiThreadSort::sort(nums.begin(), nums.end());
+
+	for (unsigned long i(0), j(nums.size()); i != j; ++i)
+		std::cout << nums[i] << ' ';
+	std::cout << std::endl;
+}
+
 int main() {
 	getcwd(szWorkDir, 256);
 	//myecho_test();
 	//mycat_test();
 	//mycp_test();
 	//mysys_test();
-	split_test();
+	//split_test();
+	sort_test();
 
 	return 0;
 }

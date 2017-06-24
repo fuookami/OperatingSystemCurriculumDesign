@@ -60,314 +60,346 @@ CMAKE_SOURCE_DIR = /home/fuookami/文档/Project/OperatingSystemSourceDesign/Tes
 CMAKE_BINARY_DIR = /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/app.dir
+# Directory level rules for directory src
+
+# Convenience name for "all" pass in the directory.
+src/all: src/CMakeFiles/app.dir/all
+src/all: src/mycat/all
+src/all: src/mycp/all
+src/all: src/myecho/all
+src/all: src/pi1/all
+src/all: src/pi2/all
+
+.PHONY : src/all
+
+# Convenience name for "clean" pass in the directory.
+src/clean: src/CMakeFiles/app.dir/clean
+src/clean: src/mycat/clean
+src/clean: src/mycp/clean
+src/clean: src/myecho/clean
+src/clean: src/pi1/clean
+src/clean: src/pi2/clean
+
+.PHONY : src/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/preinstall: src/mycat/preinstall
+src/preinstall: src/mycp/preinstall
+src/preinstall: src/myecho/preinstall
+src/preinstall: src/pi1/preinstall
+src/preinstall: src/pi2/preinstall
+
+.PHONY : src/preinstall
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/app.dir
 
 # All Build rule for target.
-CMakeFiles/app.dir/all:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
+src/CMakeFiles/app.dir/all:
+	$(MAKE) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/depend
+	$(MAKE) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target app"
-.PHONY : CMakeFiles/app.dir/all
+.PHONY : src/CMakeFiles/app.dir/all
 
 # Include target in all.
-all: CMakeFiles/app.dir/all
+all: src/CMakeFiles/app.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/app.dir/rule: cmake_check_build_system
+src/CMakeFiles/app.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/app.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/app.dir/rule
+.PHONY : src/CMakeFiles/app.dir/rule
 
 # Convenience name for target.
-app: CMakeFiles/app.dir/rule
+app: src/CMakeFiles/app.dir/rule
 
 .PHONY : app
 
 # clean rule for target.
-CMakeFiles/app.dir/clean:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/clean
-.PHONY : CMakeFiles/app.dir/clean
+src/CMakeFiles/app.dir/clean:
+	$(MAKE) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/clean
+.PHONY : src/CMakeFiles/app.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/app.dir/clean
+clean: src/CMakeFiles/app.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory bin/mycat
+# Directory level rules for directory src/mycat
 
 # Convenience name for "all" pass in the directory.
-bin/mycat/all: bin/mycat/CMakeFiles/mycat.dir/all
+src/mycat/all: src/mycat/CMakeFiles/mycat.dir/all
 
-.PHONY : bin/mycat/all
+.PHONY : src/mycat/all
 
 # Convenience name for "clean" pass in the directory.
-bin/mycat/clean: bin/mycat/CMakeFiles/mycat.dir/clean
+src/mycat/clean: src/mycat/CMakeFiles/mycat.dir/clean
 
-.PHONY : bin/mycat/clean
+.PHONY : src/mycat/clean
 
 # Convenience name for "preinstall" pass in the directory.
-bin/mycat/preinstall:
+src/mycat/preinstall:
 
-.PHONY : bin/mycat/preinstall
+.PHONY : src/mycat/preinstall
 
 #=============================================================================
-# Target rules for target bin/mycat/CMakeFiles/mycat.dir
+# Target rules for target src/mycat/CMakeFiles/mycat.dir
 
 # All Build rule for target.
-bin/mycat/CMakeFiles/mycat.dir/all:
-	$(MAKE) -f bin/mycat/CMakeFiles/mycat.dir/build.make bin/mycat/CMakeFiles/mycat.dir/depend
-	$(MAKE) -f bin/mycat/CMakeFiles/mycat.dir/build.make bin/mycat/CMakeFiles/mycat.dir/build
+src/mycat/CMakeFiles/mycat.dir/all:
+	$(MAKE) -f src/mycat/CMakeFiles/mycat.dir/build.make src/mycat/CMakeFiles/mycat.dir/depend
+	$(MAKE) -f src/mycat/CMakeFiles/mycat.dir/build.make src/mycat/CMakeFiles/mycat.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target mycat"
-.PHONY : bin/mycat/CMakeFiles/mycat.dir/all
+.PHONY : src/mycat/CMakeFiles/mycat.dir/all
 
 # Include target in all.
-all: bin/mycat/CMakeFiles/mycat.dir/all
+all: src/mycat/CMakeFiles/mycat.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-bin/mycat/CMakeFiles/mycat.dir/rule: cmake_check_build_system
+src/mycat/CMakeFiles/mycat.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 bin/mycat/CMakeFiles/mycat.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/mycat/CMakeFiles/mycat.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 0
-.PHONY : bin/mycat/CMakeFiles/mycat.dir/rule
+.PHONY : src/mycat/CMakeFiles/mycat.dir/rule
 
 # Convenience name for target.
-mycat: bin/mycat/CMakeFiles/mycat.dir/rule
+mycat: src/mycat/CMakeFiles/mycat.dir/rule
 
 .PHONY : mycat
 
 # clean rule for target.
-bin/mycat/CMakeFiles/mycat.dir/clean:
-	$(MAKE) -f bin/mycat/CMakeFiles/mycat.dir/build.make bin/mycat/CMakeFiles/mycat.dir/clean
-.PHONY : bin/mycat/CMakeFiles/mycat.dir/clean
+src/mycat/CMakeFiles/mycat.dir/clean:
+	$(MAKE) -f src/mycat/CMakeFiles/mycat.dir/build.make src/mycat/CMakeFiles/mycat.dir/clean
+.PHONY : src/mycat/CMakeFiles/mycat.dir/clean
 
 # clean rule for target.
-clean: bin/mycat/CMakeFiles/mycat.dir/clean
+clean: src/mycat/CMakeFiles/mycat.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory bin/mycp
+# Directory level rules for directory src/mycp
 
 # Convenience name for "all" pass in the directory.
-bin/mycp/all: bin/mycp/CMakeFiles/mycp.dir/all
+src/mycp/all: src/mycp/CMakeFiles/mycp.dir/all
 
-.PHONY : bin/mycp/all
+.PHONY : src/mycp/all
 
 # Convenience name for "clean" pass in the directory.
-bin/mycp/clean: bin/mycp/CMakeFiles/mycp.dir/clean
+src/mycp/clean: src/mycp/CMakeFiles/mycp.dir/clean
 
-.PHONY : bin/mycp/clean
+.PHONY : src/mycp/clean
 
 # Convenience name for "preinstall" pass in the directory.
-bin/mycp/preinstall:
+src/mycp/preinstall:
 
-.PHONY : bin/mycp/preinstall
+.PHONY : src/mycp/preinstall
 
 #=============================================================================
-# Target rules for target bin/mycp/CMakeFiles/mycp.dir
+# Target rules for target src/mycp/CMakeFiles/mycp.dir
 
 # All Build rule for target.
-bin/mycp/CMakeFiles/mycp.dir/all:
-	$(MAKE) -f bin/mycp/CMakeFiles/mycp.dir/build.make bin/mycp/CMakeFiles/mycp.dir/depend
-	$(MAKE) -f bin/mycp/CMakeFiles/mycp.dir/build.make bin/mycp/CMakeFiles/mycp.dir/build
+src/mycp/CMakeFiles/mycp.dir/all:
+	$(MAKE) -f src/mycp/CMakeFiles/mycp.dir/build.make src/mycp/CMakeFiles/mycp.dir/depend
+	$(MAKE) -f src/mycp/CMakeFiles/mycp.dir/build.make src/mycp/CMakeFiles/mycp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target mycp"
-.PHONY : bin/mycp/CMakeFiles/mycp.dir/all
+.PHONY : src/mycp/CMakeFiles/mycp.dir/all
 
 # Include target in all.
-all: bin/mycp/CMakeFiles/mycp.dir/all
+all: src/mycp/CMakeFiles/mycp.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-bin/mycp/CMakeFiles/mycp.dir/rule: cmake_check_build_system
+src/mycp/CMakeFiles/mycp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 bin/mycp/CMakeFiles/mycp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/mycp/CMakeFiles/mycp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 0
-.PHONY : bin/mycp/CMakeFiles/mycp.dir/rule
+.PHONY : src/mycp/CMakeFiles/mycp.dir/rule
 
 # Convenience name for target.
-mycp: bin/mycp/CMakeFiles/mycp.dir/rule
+mycp: src/mycp/CMakeFiles/mycp.dir/rule
 
 .PHONY : mycp
 
 # clean rule for target.
-bin/mycp/CMakeFiles/mycp.dir/clean:
-	$(MAKE) -f bin/mycp/CMakeFiles/mycp.dir/build.make bin/mycp/CMakeFiles/mycp.dir/clean
-.PHONY : bin/mycp/CMakeFiles/mycp.dir/clean
+src/mycp/CMakeFiles/mycp.dir/clean:
+	$(MAKE) -f src/mycp/CMakeFiles/mycp.dir/build.make src/mycp/CMakeFiles/mycp.dir/clean
+.PHONY : src/mycp/CMakeFiles/mycp.dir/clean
 
 # clean rule for target.
-clean: bin/mycp/CMakeFiles/mycp.dir/clean
+clean: src/mycp/CMakeFiles/mycp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory bin/myecho
+# Directory level rules for directory src/myecho
 
 # Convenience name for "all" pass in the directory.
-bin/myecho/all: bin/myecho/CMakeFiles/myecho.dir/all
+src/myecho/all: src/myecho/CMakeFiles/myecho.dir/all
 
-.PHONY : bin/myecho/all
+.PHONY : src/myecho/all
 
 # Convenience name for "clean" pass in the directory.
-bin/myecho/clean: bin/myecho/CMakeFiles/myecho.dir/clean
+src/myecho/clean: src/myecho/CMakeFiles/myecho.dir/clean
 
-.PHONY : bin/myecho/clean
+.PHONY : src/myecho/clean
 
 # Convenience name for "preinstall" pass in the directory.
-bin/myecho/preinstall:
+src/myecho/preinstall:
 
-.PHONY : bin/myecho/preinstall
+.PHONY : src/myecho/preinstall
 
 #=============================================================================
-# Target rules for target bin/myecho/CMakeFiles/myecho.dir
+# Target rules for target src/myecho/CMakeFiles/myecho.dir
 
 # All Build rule for target.
-bin/myecho/CMakeFiles/myecho.dir/all:
-	$(MAKE) -f bin/myecho/CMakeFiles/myecho.dir/build.make bin/myecho/CMakeFiles/myecho.dir/depend
-	$(MAKE) -f bin/myecho/CMakeFiles/myecho.dir/build.make bin/myecho/CMakeFiles/myecho.dir/build
+src/myecho/CMakeFiles/myecho.dir/all:
+	$(MAKE) -f src/myecho/CMakeFiles/myecho.dir/build.make src/myecho/CMakeFiles/myecho.dir/depend
+	$(MAKE) -f src/myecho/CMakeFiles/myecho.dir/build.make src/myecho/CMakeFiles/myecho.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target myecho"
-.PHONY : bin/myecho/CMakeFiles/myecho.dir/all
+.PHONY : src/myecho/CMakeFiles/myecho.dir/all
 
 # Include target in all.
-all: bin/myecho/CMakeFiles/myecho.dir/all
+all: src/myecho/CMakeFiles/myecho.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-bin/myecho/CMakeFiles/myecho.dir/rule: cmake_check_build_system
+src/myecho/CMakeFiles/myecho.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 bin/myecho/CMakeFiles/myecho.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/myecho/CMakeFiles/myecho.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 0
-.PHONY : bin/myecho/CMakeFiles/myecho.dir/rule
+.PHONY : src/myecho/CMakeFiles/myecho.dir/rule
 
 # Convenience name for target.
-myecho: bin/myecho/CMakeFiles/myecho.dir/rule
+myecho: src/myecho/CMakeFiles/myecho.dir/rule
 
 .PHONY : myecho
 
 # clean rule for target.
-bin/myecho/CMakeFiles/myecho.dir/clean:
-	$(MAKE) -f bin/myecho/CMakeFiles/myecho.dir/build.make bin/myecho/CMakeFiles/myecho.dir/clean
-.PHONY : bin/myecho/CMakeFiles/myecho.dir/clean
+src/myecho/CMakeFiles/myecho.dir/clean:
+	$(MAKE) -f src/myecho/CMakeFiles/myecho.dir/build.make src/myecho/CMakeFiles/myecho.dir/clean
+.PHONY : src/myecho/CMakeFiles/myecho.dir/clean
 
 # clean rule for target.
-clean: bin/myecho/CMakeFiles/myecho.dir/clean
+clean: src/myecho/CMakeFiles/myecho.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory bin/pi1
+# Directory level rules for directory src/pi1
 
 # Convenience name for "all" pass in the directory.
-bin/pi1/all: bin/pi1/CMakeFiles/pi1.dir/all
+src/pi1/all: src/pi1/CMakeFiles/pi1.dir/all
 
-.PHONY : bin/pi1/all
+.PHONY : src/pi1/all
 
 # Convenience name for "clean" pass in the directory.
-bin/pi1/clean: bin/pi1/CMakeFiles/pi1.dir/clean
+src/pi1/clean: src/pi1/CMakeFiles/pi1.dir/clean
 
-.PHONY : bin/pi1/clean
+.PHONY : src/pi1/clean
 
 # Convenience name for "preinstall" pass in the directory.
-bin/pi1/preinstall:
+src/pi1/preinstall:
 
-.PHONY : bin/pi1/preinstall
+.PHONY : src/pi1/preinstall
 
 #=============================================================================
-# Target rules for target bin/pi1/CMakeFiles/pi1.dir
+# Target rules for target src/pi1/CMakeFiles/pi1.dir
 
 # All Build rule for target.
-bin/pi1/CMakeFiles/pi1.dir/all:
-	$(MAKE) -f bin/pi1/CMakeFiles/pi1.dir/build.make bin/pi1/CMakeFiles/pi1.dir/depend
-	$(MAKE) -f bin/pi1/CMakeFiles/pi1.dir/build.make bin/pi1/CMakeFiles/pi1.dir/build
+src/pi1/CMakeFiles/pi1.dir/all:
+	$(MAKE) -f src/pi1/CMakeFiles/pi1.dir/build.make src/pi1/CMakeFiles/pi1.dir/depend
+	$(MAKE) -f src/pi1/CMakeFiles/pi1.dir/build.make src/pi1/CMakeFiles/pi1.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target pi1"
-.PHONY : bin/pi1/CMakeFiles/pi1.dir/all
+.PHONY : src/pi1/CMakeFiles/pi1.dir/all
 
 # Include target in all.
-all: bin/pi1/CMakeFiles/pi1.dir/all
+all: src/pi1/CMakeFiles/pi1.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-bin/pi1/CMakeFiles/pi1.dir/rule: cmake_check_build_system
+src/pi1/CMakeFiles/pi1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 bin/pi1/CMakeFiles/pi1.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/pi1/CMakeFiles/pi1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 0
-.PHONY : bin/pi1/CMakeFiles/pi1.dir/rule
+.PHONY : src/pi1/CMakeFiles/pi1.dir/rule
 
 # Convenience name for target.
-pi1: bin/pi1/CMakeFiles/pi1.dir/rule
+pi1: src/pi1/CMakeFiles/pi1.dir/rule
 
 .PHONY : pi1
 
 # clean rule for target.
-bin/pi1/CMakeFiles/pi1.dir/clean:
-	$(MAKE) -f bin/pi1/CMakeFiles/pi1.dir/build.make bin/pi1/CMakeFiles/pi1.dir/clean
-.PHONY : bin/pi1/CMakeFiles/pi1.dir/clean
+src/pi1/CMakeFiles/pi1.dir/clean:
+	$(MAKE) -f src/pi1/CMakeFiles/pi1.dir/build.make src/pi1/CMakeFiles/pi1.dir/clean
+.PHONY : src/pi1/CMakeFiles/pi1.dir/clean
 
 # clean rule for target.
-clean: bin/pi1/CMakeFiles/pi1.dir/clean
+clean: src/pi1/CMakeFiles/pi1.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory bin/pi2
+# Directory level rules for directory src/pi2
 
 # Convenience name for "all" pass in the directory.
-bin/pi2/all: bin/pi2/CMakeFiles/pi2.dir/all
+src/pi2/all: src/pi2/CMakeFiles/pi2.dir/all
 
-.PHONY : bin/pi2/all
+.PHONY : src/pi2/all
 
 # Convenience name for "clean" pass in the directory.
-bin/pi2/clean: bin/pi2/CMakeFiles/pi2.dir/clean
+src/pi2/clean: src/pi2/CMakeFiles/pi2.dir/clean
 
-.PHONY : bin/pi2/clean
+.PHONY : src/pi2/clean
 
 # Convenience name for "preinstall" pass in the directory.
-bin/pi2/preinstall:
+src/pi2/preinstall:
 
-.PHONY : bin/pi2/preinstall
+.PHONY : src/pi2/preinstall
 
 #=============================================================================
-# Target rules for target bin/pi2/CMakeFiles/pi2.dir
+# Target rules for target src/pi2/CMakeFiles/pi2.dir
 
 # All Build rule for target.
-bin/pi2/CMakeFiles/pi2.dir/all:
-	$(MAKE) -f bin/pi2/CMakeFiles/pi2.dir/build.make bin/pi2/CMakeFiles/pi2.dir/depend
-	$(MAKE) -f bin/pi2/CMakeFiles/pi2.dir/build.make bin/pi2/CMakeFiles/pi2.dir/build
+src/pi2/CMakeFiles/pi2.dir/all:
+	$(MAKE) -f src/pi2/CMakeFiles/pi2.dir/build.make src/pi2/CMakeFiles/pi2.dir/depend
+	$(MAKE) -f src/pi2/CMakeFiles/pi2.dir/build.make src/pi2/CMakeFiles/pi2.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target pi2"
-.PHONY : bin/pi2/CMakeFiles/pi2.dir/all
+.PHONY : src/pi2/CMakeFiles/pi2.dir/all
 
 # Include target in all.
-all: bin/pi2/CMakeFiles/pi2.dir/all
+all: src/pi2/CMakeFiles/pi2.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-bin/pi2/CMakeFiles/pi2.dir/rule: cmake_check_build_system
+src/pi2/CMakeFiles/pi2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 bin/pi2/CMakeFiles/pi2.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/pi2/CMakeFiles/pi2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 0
-.PHONY : bin/pi2/CMakeFiles/pi2.dir/rule
+.PHONY : src/pi2/CMakeFiles/pi2.dir/rule
 
 # Convenience name for target.
-pi2: bin/pi2/CMakeFiles/pi2.dir/rule
+pi2: src/pi2/CMakeFiles/pi2.dir/rule
 
 .PHONY : pi2
 
 # clean rule for target.
-bin/pi2/CMakeFiles/pi2.dir/clean:
-	$(MAKE) -f bin/pi2/CMakeFiles/pi2.dir/build.make bin/pi2/CMakeFiles/pi2.dir/clean
-.PHONY : bin/pi2/CMakeFiles/pi2.dir/clean
+src/pi2/CMakeFiles/pi2.dir/clean:
+	$(MAKE) -f src/pi2/CMakeFiles/pi2.dir/build.make src/pi2/CMakeFiles/pi2.dir/clean
+.PHONY : src/pi2/CMakeFiles/pi2.dir/clean
 
 # clean rule for target.
-clean: bin/pi2/CMakeFiles/pi2.dir/clean
+clean: src/pi2/CMakeFiles/pi2.dir/clean
 
 .PHONY : clean
 

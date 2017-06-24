@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <vector>
+#include <array>
 #include <string>
 #include <unistd.h>
 #include <pthread.h>
@@ -29,21 +30,23 @@ double calPiWithMultiThread(const unsigned long ed, const unsigned int threadNum
 {
 	std::vector<pthread_t> tids;
 	std::vector<void *> rets(threadNum, nullptr);
-	std::vector<unsigned long> nums;
+	std::vector<std::array<unsigned long, 2>> argvs;
 
-	nums.push_back(0);
+	unsigned long lastNum(1);
 	for (unsigned int i(0); i != threadNum; ++i)
 	{
 		unsigned long thisNum((ed * (i + 1)) / threadNum);
 		if (thisNum % 2 == 0)
 			++thisNum;
-		nums.push_back(thisNum);
+
+		argvs.push_back({lastNum, thisNum});
+		lastNum = thisNum;
 	}
 
 	for (unsigned int i(0); i != threadNum; ++i)
 	{
 		tids.push_back(pthread_t());
-		pthread_create(&tids[i], nullptr, &computePi, &nums[i]);
+		pthread_create(&tids[i], nullptr, &computePi, &argvs[i][0]);
 	}
 
 	for (unsigned int i(0); i != threadNum; ++i)
@@ -53,7 +56,7 @@ double calPiWithMultiThread(const unsigned long ed, const unsigned int threadNum
 	for (unsigned int i(0); i != threadNum; ++i)
 	{
 		ret += *(double *)rets[i];
-		delete rets[i];
+		delete (double *)rets[i];
 	}
 
 	return ret * 4;

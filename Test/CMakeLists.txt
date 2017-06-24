@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.7.2)
 project(ShellTest)
 
-include_directories("usr/local/include/c++")
-link_directories("usr/local/lib")
+include_directories("/usr/local/include/c++")
+include_directories("include/")
+link_directories("/usr/local/lib")
+link_directories(${PROJECT_BINARY_DIR}/lib/)
 
 set(CMAKE_C_COMPILER    "/usr/local/bin/clang")
 set(CMAKE_CXX_COMPILER  "/usr/local/bin/clang++")
@@ -14,9 +16,4 @@ SET (CMAKE_NM      "/usr/local/bin/llvm-nm")
 SET (CMAKE_OBJDUMP "/usr/local/bin/llvm-objdump")
 SET (CMAKE_RANLIB  "/usr/local/bin/llvm-ranlib")
 
-add_executable(app src/main.cpp)
-add_subdirectory(mycat bin/mycat)
-add_subdirectory(mycp bin/mycp)
-add_subdirectory(myecho bin/myecho)
-add_subdirectory(pi1 bin/pi1)
-add_subdirectory(pi2 bin/pi2)
+add_subdirectory(src)

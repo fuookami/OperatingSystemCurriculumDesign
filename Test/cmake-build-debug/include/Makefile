@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/include/CMakeFiles/progress.marks
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 include/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 include/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,96 +97,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 include/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 include/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named app
-
-# Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 app
-.PHONY : app
-
-# fast build rule for target.
-app/fast:
-	$(MAKE) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/build
-.PHONY : app/fast
-
-#=============================================================================
-# Target rules for targets named mycat
-
-# Build rule for target.
-mycat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mycat
-.PHONY : mycat
-
-# fast build rule for target.
-mycat/fast:
-	$(MAKE) -f src/mycat/CMakeFiles/mycat.dir/build.make src/mycat/CMakeFiles/mycat.dir/build
-.PHONY : mycat/fast
-
-#=============================================================================
-# Target rules for targets named mycp
-
-# Build rule for target.
-mycp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mycp
-.PHONY : mycp
-
-# fast build rule for target.
-mycp/fast:
-	$(MAKE) -f src/mycp/CMakeFiles/mycp.dir/build.make src/mycp/CMakeFiles/mycp.dir/build
-.PHONY : mycp/fast
-
-#=============================================================================
-# Target rules for targets named myecho
-
-# Build rule for target.
-myecho: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myecho
-.PHONY : myecho
-
-# fast build rule for target.
-myecho/fast:
-	$(MAKE) -f src/myecho/CMakeFiles/myecho.dir/build.make src/myecho/CMakeFiles/myecho.dir/build
-.PHONY : myecho/fast
-
-#=============================================================================
-# Target rules for targets named pi1
-
-# Build rule for target.
-pi1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pi1
-.PHONY : pi1
-
-# fast build rule for target.
-pi1/fast:
-	$(MAKE) -f src/pi1/CMakeFiles/pi1.dir/build.make src/pi1/CMakeFiles/pi1.dir/build
-.PHONY : pi1/fast
-
-#=============================================================================
-# Target rules for targets named pi2
-
-# Build rule for target.
-pi2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pi2
-.PHONY : pi2
-
-# fast build rule for target.
-pi2/fast:
-	$(MAKE) -f src/pi2/CMakeFiles/pi2.dir/build.make src/pi2/CMakeFiles/pi2.dir/build
-.PHONY : pi2/fast
 
 # Help Target
 help:
@@ -196,12 +118,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... app"
-	@echo "... mycat"
-	@echo "... mycp"
-	@echo "... myecho"
-	@echo "... pi1"
-	@echo "... pi2"
 .PHONY : help
 
 
@@ -213,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -31,11 +31,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.7.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeSystem.cmake"
-  "../mycat/CMakeLists.txt"
-  "../mycp/CMakeLists.txt"
-  "../myecho/CMakeLists.txt"
-  "../pi1/CMakeLists.txt"
-  "../pi2/CMakeLists.txt"
+  "../src/CMakeLists.txt"
+  "../src/mycat/CMakeLists.txt"
+  "../src/mycp/CMakeLists.txt"
+  "../src/myecho/CMakeLists.txt"
+  "../src/pi1/CMakeLists.txt"
+  "../src/pi2/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -47,19 +48,20 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "bin/mycat/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "bin/mycp/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "bin/myecho/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "bin/pi1/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "bin/pi2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/mycat/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/mycp/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/myecho/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/pi1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/pi2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/app.dir/DependInfo.cmake"
-  "bin/mycat/CMakeFiles/mycat.dir/DependInfo.cmake"
-  "bin/mycp/CMakeFiles/mycp.dir/DependInfo.cmake"
-  "bin/myecho/CMakeFiles/myecho.dir/DependInfo.cmake"
-  "bin/pi1/CMakeFiles/pi1.dir/DependInfo.cmake"
-  "bin/pi2/CMakeFiles/pi2.dir/DependInfo.cmake"
+  "src/CMakeFiles/app.dir/DependInfo.cmake"
+  "src/mycat/CMakeFiles/mycat.dir/DependInfo.cmake"
+  "src/mycp/CMakeFiles/mycp.dir/DependInfo.cmake"
+  "src/myecho/CMakeFiles/myecho.dir/DependInfo.cmake"
+  "src/pi1/CMakeFiles/pi1.dir/DependInfo.cmake"
+  "src/pi2/CMakeFiles/pi2.dir/DependInfo.cmake"
   )

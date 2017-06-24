@@ -1,0 +1,11 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin/)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib/)
+
+add_subdirectory(mycat mycat)
+add_subdirectory(mycp mycp)
+add_subdirectory(myecho myecho)
+add_subdirectory(pi1 pi1)
+add_subdirectory(pi2 pi2)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/)
+add_executable(app main.cpp)

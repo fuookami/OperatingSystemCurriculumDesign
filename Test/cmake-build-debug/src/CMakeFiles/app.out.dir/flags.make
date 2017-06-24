@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++14 -lpthread -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/include/c++ 
+CXX_INCLUDES = -I/usr/local/include/c++ 
 
