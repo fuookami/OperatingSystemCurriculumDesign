@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/include/c++"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
@@ -68,6 +69,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/include/c++"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
@@ -92,6 +94,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/include/c++"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
@@ -116,6 +119,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/include/c++"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
@@ -140,6 +144,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/include/c++"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
@@ -164,6 +169,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/include/c++"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
@@ -188,6 +194,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/include/c++"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
@@ -212,6 +219,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/include/c++"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
@@ -236,6 +244,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/include/c++"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
@@ -260,6 +269,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/include/c++"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>

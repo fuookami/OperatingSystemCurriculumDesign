@@ -1,1 +1,1 @@
-/usr/bin/clang++   -std=c++11 -g   CMakeFiles/app.dir/src/main.cpp.o  -o app 
+/usr/local/bin/clang++   -std=c++14 -lpthread -g   CMakeFiles/app.dir/src/main.cpp.o  -o app  -L/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/usr/local/lib 

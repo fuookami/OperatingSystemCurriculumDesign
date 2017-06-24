@@ -60,15 +60,15 @@ include CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/main.cpp.o"
-	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/main.cpp.o -c /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/main.cpp
+	/usr/local/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/main.cpp.o -c /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/main.cpp
 
 CMakeFiles/app.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/main.cpp.i"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/main.cpp > CMakeFiles/app.dir/src/main.cpp.i
+	/usr/local/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/main.cpp > CMakeFiles/app.dir/src/main.cpp.i
 
 CMakeFiles/app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/main.cpp.s"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/main.cpp -o CMakeFiles/app.dir/src/main.cpp.s
+	/usr/local/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/main.cpp -o CMakeFiles/app.dir/src/main.cpp.s
 
 CMakeFiles/app.dir/src/main.cpp.o.requires:
 
