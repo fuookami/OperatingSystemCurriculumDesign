@@ -1,0 +1,1 @@
+add_executable(pi2 pi2.cpp)

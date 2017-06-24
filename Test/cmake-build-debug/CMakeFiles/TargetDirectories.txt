@@ -13,3 +13,6 @@
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/CMakeFiles/rebuild_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/CMakeFiles/edit_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/CMakeFiles/pi1.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi2/CMakeFiles/rebuild_cache.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi2/CMakeFiles/edit_cache.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi2/CMakeFiles/pi2.dir

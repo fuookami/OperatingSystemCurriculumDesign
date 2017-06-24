@@ -317,6 +317,61 @@ clean: bin/pi1/CMakeFiles/pi1.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory bin/pi2
+
+# Convenience name for "all" pass in the directory.
+bin/pi2/all: bin/pi2/CMakeFiles/pi2.dir/all
+
+.PHONY : bin/pi2/all
+
+# Convenience name for "clean" pass in the directory.
+bin/pi2/clean: bin/pi2/CMakeFiles/pi2.dir/clean
+
+.PHONY : bin/pi2/clean
+
+# Convenience name for "preinstall" pass in the directory.
+bin/pi2/preinstall:
+
+.PHONY : bin/pi2/preinstall
+
+#=============================================================================
+# Target rules for target bin/pi2/CMakeFiles/pi2.dir
+
+# All Build rule for target.
+bin/pi2/CMakeFiles/pi2.dir/all:
+	$(MAKE) -f bin/pi2/CMakeFiles/pi2.dir/build.make bin/pi2/CMakeFiles/pi2.dir/depend
+	$(MAKE) -f bin/pi2/CMakeFiles/pi2.dir/build.make bin/pi2/CMakeFiles/pi2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target pi2"
+.PHONY : bin/pi2/CMakeFiles/pi2.dir/all
+
+# Include target in all.
+all: bin/pi2/CMakeFiles/pi2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+bin/pi2/CMakeFiles/pi2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 bin/pi2/CMakeFiles/pi2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 0
+.PHONY : bin/pi2/CMakeFiles/pi2.dir/rule
+
+# Convenience name for target.
+pi2: bin/pi2/CMakeFiles/pi2.dir/rule
+
+.PHONY : pi2
+
+# clean rule for target.
+bin/pi2/CMakeFiles/pi2.dir/clean:
+	$(MAKE) -f bin/pi2/CMakeFiles/pi2.dir/build.make bin/pi2/CMakeFiles/pi2.dir/clean
+.PHONY : bin/pi2/CMakeFiles/pi2.dir/clean
+
+# clean rule for target.
+clean: bin/pi2/CMakeFiles/pi2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

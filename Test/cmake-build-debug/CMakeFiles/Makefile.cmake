@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../mycp/CMakeLists.txt"
   "../myecho/CMakeLists.txt"
   "../pi1/CMakeLists.txt"
+  "../pi2/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -50,6 +51,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "bin/mycp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "bin/myecho/CMakeFiles/CMakeDirectoryInformation.cmake"
   "bin/pi1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "bin/pi2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -59,4 +61,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "bin/mycp/CMakeFiles/mycp.dir/DependInfo.cmake"
   "bin/myecho/CMakeFiles/myecho.dir/DependInfo.cmake"
   "bin/pi1/CMakeFiles/pi1.dir/DependInfo.cmake"
+  "bin/pi2/CMakeFiles/pi2.dir/DependInfo.cmake"
   )

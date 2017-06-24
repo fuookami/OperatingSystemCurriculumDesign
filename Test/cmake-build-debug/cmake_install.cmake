@@ -38,6 +38,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/mycp/cmake_install.cmake")
   include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/myecho/cmake_install.cmake")
   include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi1/cmake_install.cmake")
+  include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/pi2/cmake_install.cmake")
 
 endif()
 
