@@ -1,0 +1,1 @@
+/usr/local/bin/clang++   -std=c++14 -lpthread -g   CMakeFiles/pi2.dir/pi2.cpp.o  -o ../../bin/pi2  -L/usr/local/lib  -L/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/lib 

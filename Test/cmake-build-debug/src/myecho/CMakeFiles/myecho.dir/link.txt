@@ -1,0 +1,1 @@
+/usr/local/bin/clang++   -std=c++14 -lpthread -g   CMakeFiles/myecho.dir/myecho.cpp.o  -o ../../bin/myecho  -L/usr/local/lib  -L/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/lib 
