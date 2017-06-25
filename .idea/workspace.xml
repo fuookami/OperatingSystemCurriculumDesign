@@ -18,20 +18,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346c2174-ea09-4a48-a447-ced6d9635fe1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/DependInfo.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/build.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/cmake_clean.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/cmake_clean_target.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/depend.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/flags.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/link.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/progress.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/progress.marks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/SafePthreadExtra/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/pc1/pc1.cpp" afterPath="$PROJECT_DIR$/Test/src/pc1/pc1.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -505,7 +494,7 @@
       <workItem from="1498238692660" duration="284000" />
       <workItem from="1498239099602" duration="1214000" />
       <workItem from="1498241322482" duration="2122000" />
-      <workItem from="1498299239541" duration="7537000" />
+      <workItem from="1498299239541" duration="8190000" />
     </task>
     <task id="LOCAL-00001" summary="移植到Ubuntu Clion Clang环境">
       <created>1496159654206</created>
@@ -668,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498400591507</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="搭建pc1的calculator和customer线程框架">
+      <created>1498400662873</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1498400662873</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28521000" />
+    <option name="totallyTimeSpent" value="29174000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -759,7 +755,8 @@
     <MESSAGE value="搭建pc1框架" />
     <MESSAGE value="实现pc1buff类" />
     <MESSAGE value="实现生产者线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现生产者线程" />
+    <MESSAGE value="搭建pc1的calculator和customer线程框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建pc1的calculator和customer线程框架" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
