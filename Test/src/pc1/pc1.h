@@ -12,15 +12,15 @@ class PC1Buff
   PC1Buff();
   ~PC1Buff();
 
-  bool isEmpty(void) const;
-  bool isFull(void) const;
-  unsigned long size(void) const;
+  inline bool isEmpty(void) const;
+  inline bool isFull(void) const;
+  inline unsigned long size(void) const;
 
   void push(const char ch);
   char pop(void);
 
  private:
-  static const unsigned long buffSize = 4;
+  static const unsigned long MaxBufferSize = 4;
   std::deque<char> buffer;
 };
 
