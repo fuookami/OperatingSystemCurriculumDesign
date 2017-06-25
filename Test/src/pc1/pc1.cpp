@@ -46,3 +46,66 @@ char PC1Buff::pop(void)
 	buffer.pop_front();
 	return std::move(ele);
 };
+
+PC1::PC1()
+	: buff1Mutex(SafePthreadMutex::create()),
+      buff2Mutex(SafePthreadMutex::create()),
+      waitBuff1Full(SafePthreadCond::create()),
+      waitBuff1Empty(SafePthreadCond::create()),
+      waitBuff2Full(SafePthreadCond::create()),
+      waitBuff2Empty(SafePthreadCond::create()),
+      buff1(), buff2(), finish(false)
+{
+}
+
+PC1::~PC1()
+{
+}
+
+void PC1::run()
+{
+	pthread_create(&producerTid, nullptr, producer, nullptr);
+	pthread_create(&calculatorTid, nullptr, calculator, nullptr);
+	pthread_create(&customerTid, nullptr, customer, nullptr);
+
+	pthread_join(producerTid, nullptr);
+	pthread_join(calculatorTid, nullptr);
+	pthread_join(customerTid, nullptr);
+
+	std::cout << "All thread has been closed." << std::endl;
+}
+
+void *PC1::producer(void *args)
+{
+	for (char i('a'); i != 'i'; ++i)
+	{
+		buff1Mutex->lock();
+
+		while(buff1.isFull())
+			waitBuff1Empty->wait(buff1Mutex);
+
+		std::cout << "Produce: put " << i << " into buffer 1." <<std::endl;
+		buff1.push(i);
+
+		waitBuff1Full->signal();
+		buff1Mutex->unlock();
+	}
+
+	std::cout << "Producer has been closed." << std::endl;
+	finish = true;
+	return nullptr;
+}
+
+void *PC1::calculator(void *args)
+{
+
+
+	return nullptr;
+}
+
+void *PC1::customer(void *args)
+{
+
+
+	return nullptr;
+}

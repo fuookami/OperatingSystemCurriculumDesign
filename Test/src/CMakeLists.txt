@@ -1,6 +1,8 @@
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin/)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib/)
 
+add_subdirectory(SafePthreadExtra SafePthreadExtra)
+
 add_subdirectory(mycat mycat)
 add_subdirectory(mycp mycp)
 add_subdirectory(myecho myecho)

@@ -3,6 +3,9 @@
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/CMakeFiles/edit_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/CMakeFiles/app.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/rebuild_cache.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/edit_cache.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/mycat/CMakeFiles/rebuild_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/mycat/CMakeFiles/edit_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir

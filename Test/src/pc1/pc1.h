@@ -5,6 +5,7 @@
 #pragma once
 #include <iostream>
 #include <deque>
+#include "PthreadExtra.h"
 
 class PC1Buff
 {
@@ -31,6 +32,16 @@ class PC1
   ~PC1();
 
   void run();
+
  private:
+  void *producer(void *args);
+  void *calculator(void *args);
+  void *customer(void *args);
+
+ private:
+  pthread_t producerTid, calculatorTid, customerTid;
+  SPSafePthreadMutex buff1Mutex, buff2Mutex;
+  SPSafePthreadCond waitBuff1Full, waitBuff1Empty, waitBuff2Full, waitBuff2Empty;
   PC1Buff buff1, buff2;
+  volatile finish;
 };
