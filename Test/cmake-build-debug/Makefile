@@ -188,6 +188,19 @@ pi2/fast:
 	$(MAKE) -f src/pi2/CMakeFiles/pi2.dir/build.make src/pi2/CMakeFiles/pi2.dir/build
 .PHONY : pi2/fast
 
+#=============================================================================
+# Target rules for targets named pc1
+
+# Build rule for target.
+pc1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pc1
+.PHONY : pc1
+
+# fast build rule for target.
+pc1/fast:
+	$(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/build
+.PHONY : pc1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,6 +215,7 @@ help:
 	@echo "... myecho"
 	@echo "... pi1"
 	@echo "... pi2"
+	@echo "... pc1"
 .PHONY : help
 
 

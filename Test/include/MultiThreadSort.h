@@ -55,13 +55,13 @@ namespace MultiThreadSort
 		{
 			while (first != last)
 			{
-				RandomIt maxEleIt(first);
+				RandomIt minEleIt(first);
 				for (RandomIt currIt(first + 1); currIt != last; ++currIt)
 				{
-					if (*currIt > *maxEleIt)
-						maxEleIt = currIt;
+					if (*currIt < *minEleIt)
+						minEleIt = currIt;
 				}
-				std::swap(*first, *maxEleIt);
+				std::swap(*first, *minEleIt);
 
 				++first;
 			}

@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../src/mycat/CMakeLists.txt"
   "../src/mycp/CMakeLists.txt"
   "../src/myecho/CMakeLists.txt"
+  "../src/pc1/CMakeLists.txt"
   "../src/pi1/CMakeLists.txt"
   "../src/pi2/CMakeLists.txt"
   )
@@ -54,6 +55,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/myecho/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/pi1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/pi2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/pc1/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -64,4 +66,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/myecho/CMakeFiles/myecho.dir/DependInfo.cmake"
   "src/pi1/CMakeFiles/pi1.dir/DependInfo.cmake"
   "src/pi2/CMakeFiles/pi2.dir/DependInfo.cmake"
+  "src/pc1/CMakeFiles/pc1.dir/DependInfo.cmake"
   )

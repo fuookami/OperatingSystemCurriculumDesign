@@ -126,6 +126,21 @@ void sort_test()
 	std::cout << std::endl;
 }
 
+void pc1_test()
+{
+
+}
+
+void pc2_test()
+{
+
+}
+
+void ring_test()
+{
+
+}
+
 int main() {
 	getcwd(szWorkDir, 256);
 	//myecho_test();
@@ -133,7 +148,10 @@ int main() {
 	//mycp_test();
 	//mysys_test();
 	//split_test();
-	sort_test();
+	//sort_test();
+	pc1_test();
+	//pc2_test();
+	//ring_test();
 
 	return 0;
 }
