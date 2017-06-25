@@ -98,14 +98,22 @@ void *PC1::producer(void *args)
 
 void *PC1::calculator(void *args)
 {
+	while (!finish || !buff1.isEmpty())
+	{
 
+	}
 
+	std::cout << "Calculator has been closed." << std::endl;
 	return nullptr;
 }
 
 void *PC1::customer(void *args)
 {
+	while (!finish || !buff2.isEmpty())
+	{
 
+	}
 
+	std::cout << "Customer has been closed." << std::endl;
 	return nullptr;
 }
