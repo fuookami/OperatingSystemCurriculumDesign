@@ -1,0 +1,1 @@
+/usr/local/bin/clang++  -fPIC -std=c++14 -lpthread -g  -shared -Wl,-soname,libSafePthreadExtra.so.1 -o ../../lib/libSafePthreadExtra.so.1.2 CMakeFiles/SafePthreadExtra.dir/PthreadExtra.cpp.o  -L/usr/local/lib  -L/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/lib 
