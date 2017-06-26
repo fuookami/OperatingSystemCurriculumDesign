@@ -50,6 +50,20 @@ SafePthreadSema::~SafePthreadSema()
 {
 }
 
+std::shared_ptr<SafePthreadSema> SafePthreadSema::create(
+	int _value, pthread_mutexattr_t *mutexAttr, pthread_condattr_t *condAttr)
+{
+	std::shared_ptr<SafePthreadSema> ret(new SafePthreadSema(_value, mutexAttr, condAttr));
+
+	return ret->success() ? ret : nullptr;
+}
+
+std::shared_ptr<SafePthreadSema> SafePthreadSema::createMutexTemplate(
+	pthread_mutexattr_t *mutexAttr, pthread_condattr_t *condAttr)
+{
+	return create(1, mutexAttr, condAttr);
+}
+
 bool SafePthreadSema::wait(void)
 {
 	if (!spMutex->lock())

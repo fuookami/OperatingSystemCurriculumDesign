@@ -17,10 +17,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="346c2174-ea09-4a48-a447-ced6d9635fe1" name="Default" comment="">
+    <list default="true" id="346c2174-ea09-4a48-a447-ced6d9635fe1" name="Default" comment="搭建pc2框架">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/pc2/PC2.h" afterPath="$PROJECT_DIR$/Test/src/pc2/PC2.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/include/SafePthreadExtra.h" afterPath="$PROJECT_DIR$/Test/include/SafePthreadExtra.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/SafePthreadExtra/SafePthreadExtra.cpp" afterPath="$PROJECT_DIR$/Test/src/SafePthreadExtra/SafePthreadExtra.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/pc2/PC2.cpp" afterPath="$PROJECT_DIR$/Test/src/pc2/PC2.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/pc2/main.cpp" afterPath="$PROJECT_DIR$/Test/src/pc2/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -496,7 +499,7 @@
       <workItem from="1498239099602" duration="1214000" />
       <workItem from="1498241322482" duration="2122000" />
       <workItem from="1498299239541" duration="8529000" />
-      <workItem from="1498482453824" duration="4228000" />
+      <workItem from="1498482453824" duration="5443000" />
     </task>
     <task id="LOCAL-00001" summary="移植到Ubuntu Clion Clang环境">
       <created>1496159654206</created>
@@ -729,11 +732,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498488238185</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="搭建pc2框架">
+      <created>1498488696630</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1498488696630</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33741000" />
+    <option name="totallyTimeSpent" value="34956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,7 +813,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="移植到Ubuntu Clion Clang环境" />
     <MESSAGE value="转构成模块化框架" />
     <MESSAGE value="重构项目框架完成" />
     <MESSAGE value="将mycat重构成linux版本" />
@@ -828,7 +837,8 @@
     <MESSAGE value="搭建安全信号量类框架" />
     <MESSAGE value="实现安全信号量类" />
     <MESSAGE value="实现并完善安全信号量类" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现并完善安全信号量类" />
+    <MESSAGE value="搭建pc2框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建pc2框架" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

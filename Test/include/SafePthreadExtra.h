@@ -88,6 +88,8 @@ class SafePthreadSema
  public:
   static std::shared_ptr<SafePthreadSema> create(int _value = 0, pthread_mutexattr_t *mutexAttr = nullptr,
                                                  pthread_condattr_t *condAttr = nullptr);
+  static std::shared_ptr<SafePthreadSema> createMutexTemplate(pthread_mutexattr_t *mutexAttr = nullptr,
+                                                         pthread_condattr_t *condAttr = nullptr);
   ~SafePthreadSema();
 
   inline SafePthreadMutex &getSafeMutex(void);
