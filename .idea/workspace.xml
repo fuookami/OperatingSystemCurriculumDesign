@@ -17,10 +17,72 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="346c2174-ea09-4a48-a447-ced6d9635fe1" name="Default" comment="搭建安全信号量类框架">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="346c2174-ea09-4a48-a447-ced6d9635fe1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/10" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/11" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/12" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/13" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/14" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/15" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/16" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/17" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/18" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/19" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/20" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/21" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/22" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/app" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/app.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/app.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/app.dir/main.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir/mycat.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycp/CMakeFiles/mycp.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycp/CMakeFiles/mycp.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycp/CMakeFiles/mycp.dir/mycp.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/myecho/CMakeFiles/myecho.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/myecho/CMakeFiles/myecho.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/myecho/CMakeFiles/myecho.dir/myecho.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/PC1.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/__/PCBuffer/PCBuffer.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/__/SafePthreadExtra/SafePthreadExtra.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/main.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/PC2.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/__/PCBuffer/PCBuffer.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/__/SafePthreadExtra/SafePthreadExtra.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/main.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi1/CMakeFiles/pi1.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi1/CMakeFiles/pi1.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi1/CMakeFiles/pi1.dir/pi1.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi2/CMakeFiles/pi2.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi2/CMakeFiles/pi2.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi2/CMakeFiles/pi2.dir/pi2.cpp.o" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/app.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/app.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycp/CMakeFiles/mycp.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycp/CMakeFiles/mycp.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/myecho/CMakeFiles/myecho.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/myecho/CMakeFiles/myecho.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi1/CMakeFiles/pi1.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi1/CMakeFiles/pi1.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi2/CMakeFiles/pi2.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi2/CMakeFiles/pi2.dir/depend.make" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -506,7 +568,7 @@
       <workItem from="1498239099602" duration="1214000" />
       <workItem from="1498241322482" duration="2122000" />
       <workItem from="1498299239541" duration="8529000" />
-      <workItem from="1498482453824" duration="1763000" />
+      <workItem from="1498482453824" duration="1790000" />
     </task>
     <task id="LOCAL-00001" summary="移植到Ubuntu Clion Clang环境">
       <created>1496159654206</created>
@@ -711,11 +773,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498484644038</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="搭建安全信号量类框架">
+      <created>1498484817663</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1498484817663</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31276000" />
+    <option name="totallyTimeSpent" value="31303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
