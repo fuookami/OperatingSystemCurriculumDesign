@@ -18,71 +18,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346c2174-ea09-4a48-a447-ced6d9635fe1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/10" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/11" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/12" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/13" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/14" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/15" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/16" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/17" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/18" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/19" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/20" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/21" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/22" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/app" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/app.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/app.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/app.dir/main.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir/mycat.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycp/CMakeFiles/mycp.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycp/CMakeFiles/mycp.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycp/CMakeFiles/mycp.dir/mycp.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/myecho/CMakeFiles/myecho.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/myecho/CMakeFiles/myecho.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/myecho/CMakeFiles/myecho.dir/myecho.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/PC1.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/__/PCBuffer/PCBuffer.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/__/SafePthreadExtra/SafePthreadExtra.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/main.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/PC2.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/__/PCBuffer/PCBuffer.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/__/SafePthreadExtra/SafePthreadExtra.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/main.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi1/CMakeFiles/pi1.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi1/CMakeFiles/pi1.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi1/CMakeFiles/pi1.dir/pi1.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi2/CMakeFiles/pi2.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi2/CMakeFiles/pi2.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi2/CMakeFiles/pi2.dir/pi2.cpp.o" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/app.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/app.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycp/CMakeFiles/mycp.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/mycp/CMakeFiles/mycp.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/myecho/CMakeFiles/myecho.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/myecho/CMakeFiles/myecho.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi1/CMakeFiles/pi1.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi1/CMakeFiles/pi1.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi2/CMakeFiles/pi2.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/pi2/CMakeFiles/pi2.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/include/SafePthreadExtra.h" afterPath="$PROJECT_DIR$/Test/include/SafePthreadExtra.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/SafePthreadExtra/SafePthreadExtra.cpp" afterPath="$PROJECT_DIR$/Test/src/SafePthreadExtra/SafePthreadExtra.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -109,21 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ShellSimulation/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -227,10 +156,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="3771" />
-    <option name="height" value="2011" />
+    <option name="x" value="677" />
+    <option name="y" value="202" />
+    <option name="width" value="735" />
+    <option name="height" value="548" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -568,7 +497,7 @@
       <workItem from="1498239099602" duration="1214000" />
       <workItem from="1498241322482" duration="2122000" />
       <workItem from="1498299239541" duration="8529000" />
-      <workItem from="1498482453824" duration="1790000" />
+      <workItem from="1498482453824" duration="2559000" />
     </task>
     <task id="LOCAL-00001" summary="移植到Ubuntu Clion Clang环境">
       <created>1496159654206</created>
@@ -780,11 +709,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498484817663</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="搭建安全信号量类框架">
+      <created>1498484867275</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1498484867275</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31303000" />
+    <option name="totallyTimeSpent" value="32072000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,13 +732,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="3771" height="2011" extended-state="6" />
+    <frame x="677" y="202" width="735" height="548" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124635376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6394558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3003663" sideWeight="0.46300715" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3003663" sideWeight="0.53699285" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.4585034" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.5414966" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.49810913" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34082398" sideWeight="0.49142858" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1125,18 +1061,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShellSimulation/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShellSimulation/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding />
         </state>
       </provider>

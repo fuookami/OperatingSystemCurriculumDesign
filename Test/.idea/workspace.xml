@@ -42,26 +42,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pc1/CMakeLists.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -71,10 +51,10 @@
               <file leaf-file-name="PC1.h" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/pc1/PC1.h">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="440">
-                      <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+                    <state relative-caret-position="620">
+                      <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
                       <folding>
-                        <marker date="1498482874617" expanded="false" signature="54:84" ph="..." />
+                        <element signature="e#55#84#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -100,33 +80,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="SafePthreadExtra.h" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/include/SafePthreadExtra.h">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="397">
-                      <caret line="141" column="1" lean-forward="false" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
-                      <folding>
-                        <element signature="e#57#74#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/SafePthreadExtra/CMakeLists.txt">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="0">
-                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SafePthreadExtra.cpp" pinned="false" current-in-tab="false">
+              <file leaf-file-name="SafePthreadExtra.cpp" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.cpp">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="180">
-                      <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+                    <state relative-caret-position="817">
+                      <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -136,13 +94,25 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="PC1.h" pinned="false" current-in-tab="true">
+              <file leaf-file-name="PC1.h" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/pc1/PC1.h">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="620">
                       <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
                       <folding>
                         <element signature="e#55#84#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="SafePthreadExtra.h" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/include/SafePthreadExtra.h">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="997">
+                      <caret line="113" column="27" lean-forward="true" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+                      <folding>
+                        <element signature="e#57#74#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -189,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/pc/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/pc/SafePthreadExtra.cpp" />
         <option value="$PROJECT_DIR$/src/pc/SafePthreadExtra.h" />
-        <option value="$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.cpp" />
         <option value="$PROJECT_DIR$/src/pc1/SafePthreadExtra.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/pc1/pc1.h" />
@@ -206,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.h" />
         <option value="$PROJECT_DIR$/src/SafePthreadExtra/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/SafePthreadExtra.h" />
+        <option value="$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.cpp" />
       </list>
     </option>
   </component>
@@ -591,12 +561,12 @@
       <updated>1498239952018</updated>
       <workItem from="1498239953247" duration="7199000" />
       <workItem from="1498299081597" duration="87000" />
-      <workItem from="1498470236975" duration="11676000" />
+      <workItem from="1498470236975" duration="12618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50865000" />
+    <option name="totallyTimeSpent" value="51807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="3771" height="2011" extended-state="6" />
@@ -609,7 +579,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.111924686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0837974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0837974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289749" sideWeight="0.49810913" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -919,44 +889,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pc2/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pc2/PC2.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pc1/PC1.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding>
-            <marker date="1498482874617" expanded="false" signature="54:84" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pc2/PC2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -969,6 +905,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pc1/PC1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <folding>
+            <element signature="e#55#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SafePthreadExtra/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -977,13 +923,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pc2/PC2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pc2/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/SafePthreadExtra.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="141" column="1" lean-forward="false" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
+        <state relative-caret-position="997">
+          <caret line="113" column="27" lean-forward="true" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
           <folding>
             <element signature="e#57#74#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

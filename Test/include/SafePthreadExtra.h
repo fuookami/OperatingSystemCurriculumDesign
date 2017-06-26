@@ -86,7 +86,7 @@ using SPSafePthreadCond = std::shared_ptr<SafePthreadCond>;
 class SafePthreadSema
 {
  public:
-  static std::shared_ptr<SafePthreadSema> create(int value = 0, pthread_mutexattr_t *mutexAttr = nullptr,
+  static std::shared_ptr<SafePthreadSema> create(int _value = 0, pthread_mutexattr_t *mutexAttr = nullptr,
                                                  pthread_condattr_t *condAttr = nullptr);
   ~SafePthreadSema();
 
@@ -109,7 +109,8 @@ class SafePthreadSema
 
  private:
   int value;
-  SpSafePthreadMutex spMutex;
+  bool initSuccess;
+  SPSafePthreadMutex spMutex;
   SPSafePthreadCond spCond;
 };
 
@@ -171,6 +172,11 @@ SafePthreadCond &SafePthreadSema::getSafeCond(void)
 SpSafePthreadCond SafePthreadSema::getSafeCondSPtr(void)
 {
   return spCond;
+}
+
+int SafePthreadSema::values(void) const
+{
+	return values;
 }
 
 bool SafePthreadSema::success(void) const
