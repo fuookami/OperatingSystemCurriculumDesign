@@ -4,6 +4,7 @@
 
 #pragma once
 
+
 #include <memory>
 #include <pthread.h>
 
@@ -82,6 +83,36 @@ class SafePthreadCond
 };
 using SPSafePthreadCond = std::shared_ptr<SafePthreadCond>;
 
+class SafePthreadSema
+{
+ public:
+  static std::shared_ptr<SafePthreadSema> create(int value = 0, pthread_mutexattr_t *mutexAttr = nullptr,
+                                                 pthread_condattr_t *condAttr = nullptr);
+  ~SafePthreadSema();
+
+  inline SafePthreadMutex &getSafeMutex(void);
+  inline SpSafePthreadMutex getSafeMutexSPtr(void);
+  inline SafePthreadCond &getSafeCond(void);
+  inline SPSafePthreadCond getSafeCondSPtr(void);
+  inline int value(void) const;
+
+  bool wait(SafePthreadSema &rop);
+  bool wait(std::shared_ptr<SafePthreadSema> &prop);
+
+  bool signal(SafePthreadSema &rop);
+  bool signal(std::shared_ptr<SafePthreadSema> &prop);
+
+ private:
+  SafePthreadSema(int value = 0, pthread_mutexattr_t *mutexAttr = nullptr,
+                  pthread_condattr_t *condAttr = nullptr);
+  inline bool success(void) const;
+
+ private:
+  int value;
+  SpSafePthreadMutex spMutex;
+  SPSafePthreadCond spCond;
+};
+
 pthread_cond_t& SafePthreadCond::get()
 {
 	return cond;
@@ -120,4 +151,29 @@ bool SafePthreadCond::broadcast()
 bool SafePthreadCond::success() const
 {
 	return initSuccess;
+}
+
+SafePthreadMutex &SafePthreadSema::getSafeMutex(void)
+{
+  return *spMutex;
+}
+
+SPSafePthreadMutex SafePthreadSema::getSafeMutexSPtr(void)
+{
+  return spMutex;
+}
+
+SafePthreadCond &SafePthreadSema::getSafeCond(void)
+{
+  return *spCond;
+}
+
+SpSafePthreadCond SafePthreadSema::getSafeCondSPtr(void)
+{
+  return spCond;
+}
+
+bool SafePthreadSema::success(void) const
+{
+  return initSuccess;
 }
