@@ -2,7 +2,7 @@
 // Created by fuookami on 17-6-26.
 //
 
-#include "pc1.h"
+#include "PC1.h"
 
 int main(void)
 {

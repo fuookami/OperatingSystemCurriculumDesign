@@ -6,37 +6,41 @@
 
 #IncludeRegexTransform: 
 
+../include/PCBuffer.h
+deque
+-
+
 ../include/SafePthreadExtra.h
 memory
 -
 pthread.h
 -
 
-/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/include/SafePthreadExtra.h
-memory
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/PCBuffer/PCBuffer.cpp
+PCBuffer.h
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/PCBuffer/PCBuffer.h
+string
 -
-pthread.h
+iostream
 -
 
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/SafePthreadExtra/SafePthreadExtra.cpp
 SafePthreadExtra.h
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/SafePthreadExtra/SafePthreadExtra.h
 
-/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/main.cpp
-pc1.h
-/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.h
-
-/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.cpp
-pc1.h
-/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.h
-functional
--
-
-/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.h
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/PC1.cpp
+PC1.h
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/PC1.h
 iostream
 -
-deque
--
-../../include/SafePthreadExtra.h
-/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/include/SafePthreadExtra.h
+
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/PC1.h
+SafePthreadExtra.h
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/SafePthreadExtra.h
+PCBuffer.h
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/PCBuffer.h
+
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/main.cpp
+PC1.h
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/PC1.h
 

@@ -1,3 +1,4 @@
-add_executable(pc1 ../SafePthreadExtra/SafePthreadExtra.cpp
-        pc1.cpp main.cpp)
-#target_link_libraries(SafePthreadExtra)
+add_executable(pc1
+        ../PCBuffer/PCBuffer.cpp
+        ../SafePthreadExtra/SafePthreadExtra.cpp
+        PC1.cpp main.cpp)

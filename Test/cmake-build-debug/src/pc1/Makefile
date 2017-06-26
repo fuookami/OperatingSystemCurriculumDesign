@@ -125,6 +125,60 @@ pc1/fast:
 	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/build
 .PHONY : pc1/fast
 
+PC1.o: PC1.cpp.o
+
+.PHONY : PC1.o
+
+# target to build an object file
+PC1.cpp.o:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/PC1.cpp.o
+.PHONY : PC1.cpp.o
+
+PC1.i: PC1.cpp.i
+
+.PHONY : PC1.i
+
+# target to preprocess a source file
+PC1.cpp.i:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/PC1.cpp.i
+.PHONY : PC1.cpp.i
+
+PC1.s: PC1.cpp.s
+
+.PHONY : PC1.s
+
+# target to generate assembly for a file
+PC1.cpp.s:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/PC1.cpp.s
+.PHONY : PC1.cpp.s
+
+__/PCBuffer/PCBuffer.o: __/PCBuffer/PCBuffer.cpp.o
+
+.PHONY : __/PCBuffer/PCBuffer.o
+
+# target to build an object file
+__/PCBuffer/PCBuffer.cpp.o:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/__/PCBuffer/PCBuffer.cpp.o
+.PHONY : __/PCBuffer/PCBuffer.cpp.o
+
+__/PCBuffer/PCBuffer.i: __/PCBuffer/PCBuffer.cpp.i
+
+.PHONY : __/PCBuffer/PCBuffer.i
+
+# target to preprocess a source file
+__/PCBuffer/PCBuffer.cpp.i:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/__/PCBuffer/PCBuffer.cpp.i
+.PHONY : __/PCBuffer/PCBuffer.cpp.i
+
+__/PCBuffer/PCBuffer.s: __/PCBuffer/PCBuffer.cpp.s
+
+.PHONY : __/PCBuffer/PCBuffer.s
+
+# target to generate assembly for a file
+__/PCBuffer/PCBuffer.cpp.s:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/__/PCBuffer/PCBuffer.cpp.s
+.PHONY : __/PCBuffer/PCBuffer.cpp.s
+
 __/SafePthreadExtra/SafePthreadExtra.o: __/SafePthreadExtra/SafePthreadExtra.cpp.o
 
 .PHONY : __/SafePthreadExtra/SafePthreadExtra.o
@@ -179,33 +233,6 @@ main.cpp.s:
 	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-pc1.o: pc1.cpp.o
-
-.PHONY : pc1.o
-
-# target to build an object file
-pc1.cpp.o:
-	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/pc1.cpp.o
-.PHONY : pc1.cpp.o
-
-pc1.i: pc1.cpp.i
-
-.PHONY : pc1.i
-
-# target to preprocess a source file
-pc1.cpp.i:
-	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/pc1.cpp.i
-.PHONY : pc1.cpp.i
-
-pc1.s: pc1.cpp.s
-
-.PHONY : pc1.s
-
-# target to generate assembly for a file
-pc1.cpp.s:
-	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/pc1.cpp.s
-.PHONY : pc1.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -215,15 +242,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... pc1"
+	@echo "... PC1.o"
+	@echo "... PC1.i"
+	@echo "... PC1.s"
+	@echo "... __/PCBuffer/PCBuffer.o"
+	@echo "... __/PCBuffer/PCBuffer.i"
+	@echo "... __/PCBuffer/PCBuffer.s"
 	@echo "... __/SafePthreadExtra/SafePthreadExtra.o"
 	@echo "... __/SafePthreadExtra/SafePthreadExtra.i"
 	@echo "... __/SafePthreadExtra/SafePthreadExtra.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... pc1.o"
-	@echo "... pc1.i"
-	@echo "... pc1.s"
 .PHONY : help
 
 

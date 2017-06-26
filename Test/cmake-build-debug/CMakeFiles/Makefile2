@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/fuookami/文档/Project/OperatingSystemSourceDesign/Tes
 # Convenience name for "all" pass in the directory.
 src/all: src/CMakeFiles/app.dir/all
 src/all: src/SafePthreadExtra/all
+src/all: src/PCBuffer/all
 src/all: src/mycat/all
 src/all: src/mycp/all
 src/all: src/myecho/all
@@ -77,6 +78,7 @@ src/all: src/pc1/all
 # Convenience name for "clean" pass in the directory.
 src/clean: src/CMakeFiles/app.dir/clean
 src/clean: src/SafePthreadExtra/clean
+src/clean: src/PCBuffer/clean
 src/clean: src/mycat/clean
 src/clean: src/mycp/clean
 src/clean: src/myecho/clean
@@ -88,6 +90,7 @@ src/clean: src/pc1/clean
 
 # Convenience name for "preinstall" pass in the directory.
 src/preinstall: src/SafePthreadExtra/preinstall
+src/preinstall: src/PCBuffer/preinstall
 src/preinstall: src/mycat/preinstall
 src/preinstall: src/mycp/preinstall
 src/preinstall: src/myecho/preinstall
@@ -151,6 +154,24 @@ src/SafePthreadExtra/clean:
 src/SafePthreadExtra/preinstall:
 
 .PHONY : src/SafePthreadExtra/preinstall
+
+#=============================================================================
+# Directory level rules for directory src/PCBuffer
+
+# Convenience name for "all" pass in the directory.
+src/PCBuffer/all:
+
+.PHONY : src/PCBuffer/all
+
+# Convenience name for "clean" pass in the directory.
+src/PCBuffer/clean:
+
+.PHONY : src/PCBuffer/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/PCBuffer/preinstall:
+
+.PHONY : src/PCBuffer/preinstall
 
 #=============================================================================
 # Directory level rules for directory src/mycat
@@ -342,7 +363,7 @@ src/pi1/preinstall:
 src/pi1/CMakeFiles/pi1.dir/all:
 	$(MAKE) -f src/pi1/CMakeFiles/pi1.dir/build.make src/pi1/CMakeFiles/pi1.dir/depend
 	$(MAKE) -f src/pi1/CMakeFiles/pi1.dir/build.make src/pi1/CMakeFiles/pi1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target pi1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target pi1"
 .PHONY : src/pi1/CMakeFiles/pi1.dir/all
 
 # Include target in all.
@@ -397,7 +418,7 @@ src/pi2/preinstall:
 src/pi2/CMakeFiles/pi2.dir/all:
 	$(MAKE) -f src/pi2/CMakeFiles/pi2.dir/build.make src/pi2/CMakeFiles/pi2.dir/depend
 	$(MAKE) -f src/pi2/CMakeFiles/pi2.dir/build.make src/pi2/CMakeFiles/pi2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target pi2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target pi2"
 .PHONY : src/pi2/CMakeFiles/pi2.dir/all
 
 # Include target in all.
@@ -452,7 +473,7 @@ src/pc1/preinstall:
 src/pc1/CMakeFiles/pc1.dir/all:
 	$(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/depend
 	$(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12 "Built target pc1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12,13 "Built target pc1"
 .PHONY : src/pc1/CMakeFiles/pc1.dir/all
 
 # Include target in all.
@@ -462,7 +483,7 @@ all: src/pc1/CMakeFiles/pc1.dir/all
 
 # Build rule for subdir invocation for target.
 src/pc1/CMakeFiles/pc1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 src/pc1/CMakeFiles/pc1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 0
 .PHONY : src/pc1/CMakeFiles/pc1.dir/rule

@@ -5,7 +5,7 @@
 		<Option title="ShellTest"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\SafePthreadExtra\;CMake Files\src\mycat\;CMake Files\src\mycp\;CMake Files\src\myecho\;CMake Files\src\pi1\;CMake Files\src\pi2\;CMake Files\src\pc1\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\SafePthreadExtra\;CMake Files\src\PCBuffer\;CMake Files\src\mycat\;CMake Files\src\mycp\;CMake Files\src\myecho\;CMake Files\src\pi1\;CMake Files\src\pi2\;CMake Files\src\pc1\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug"/>
@@ -402,6 +402,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/PCBuffer/PCBuffer.cpp">
+			<Option target="pc1"/>
+		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/SafePthreadExtra/SafePthreadExtra.cpp">
 			<Option target="pc1"/>
 		</Unit>
@@ -417,13 +420,13 @@
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/myecho/myecho.cpp">
 			<Option target="myecho"/>
 		</Unit>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/PC1.cpp">
+			<Option target="pc1"/>
+		</Unit>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/PC1.h">
+			<Option target="pc1"/>
+		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/main.cpp">
-			<Option target="pc1"/>
-		</Unit>
-		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.cpp">
-			<Option target="pc1"/>
-		</Unit>
-		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.h">
 			<Option target="pc1"/>
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pi1/pi1.cpp">
@@ -440,6 +443,9 @@
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/SafePthreadExtra/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\SafePthreadExtra\"/>
+		</Unit>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/PCBuffer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\PCBuffer\"/>
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/mycat/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\mycat\"/>
