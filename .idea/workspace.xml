@@ -17,7 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="346c2174-ea09-4a48-a447-ced6d9635fe1" name="Default" comment="搭建pc2框架">
+    <list default="true" id="346c2174-ea09-4a48-a447-ced6d9635fe1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/include/SafePthreadExtra.h" afterPath="$PROJECT_DIR$/Test/include/SafePthreadExtra.h" />
@@ -499,7 +499,7 @@
       <workItem from="1498239099602" duration="1214000" />
       <workItem from="1498241322482" duration="2122000" />
       <workItem from="1498299239541" duration="8529000" />
-      <workItem from="1498482453824" duration="5443000" />
+      <workItem from="1498482453824" duration="5457000" />
     </task>
     <task id="LOCAL-00001" summary="移植到Ubuntu Clion Clang环境">
       <created>1496159654206</created>
@@ -739,11 +739,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498488696630</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="实现pc2">
+      <created>1498494987631</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1498494987631</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34956000" />
+    <option name="totallyTimeSpent" value="34970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -813,7 +820,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转构成模块化框架" />
     <MESSAGE value="重构项目框架完成" />
     <MESSAGE value="将mycat重构成linux版本" />
     <MESSAGE value="修正mycat的bug，将mycp重构成linux版本" />
@@ -838,7 +844,8 @@
     <MESSAGE value="实现安全信号量类" />
     <MESSAGE value="实现并完善安全信号量类" />
     <MESSAGE value="搭建pc2框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="搭建pc2框架" />
+    <MESSAGE value="实现pc2" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现pc2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
