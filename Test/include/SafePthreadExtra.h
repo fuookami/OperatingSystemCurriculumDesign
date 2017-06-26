@@ -91,16 +91,13 @@ class SafePthreadSema
   ~SafePthreadSema();
 
   inline SafePthreadMutex &getSafeMutex(void);
-  inline SpSafePthreadMutex getSafeMutexSPtr(void);
+  inline SPSafePthreadMutex getSafeMutexSPtr(void);
   inline SafePthreadCond &getSafeCond(void);
   inline SPSafePthreadCond getSafeCondSPtr(void);
   inline int value(void) const;
 
-  bool wait(SafePthreadSema &rop);
-  bool wait(std::shared_ptr<SafePthreadSema> &prop);
-
-  bool signal(SafePthreadSema &rop);
-  bool signal(std::shared_ptr<SafePthreadSema> &prop);
+  bool wait(void);
+  bool signal(void);
 
  private:
   SafePthreadSema(int value = 0, pthread_mutexattr_t *mutexAttr = nullptr,
@@ -108,11 +105,12 @@ class SafePthreadSema
   inline bool success(void) const;
 
  private:
-  int value;
+  volatile int val;
   bool initSuccess;
   SPSafePthreadMutex spMutex;
   SPSafePthreadCond spCond;
 };
+using SPSafePthreadSema = std::shared_ptr<SafePthreadSema>;
 
 pthread_cond_t& SafePthreadCond::get()
 {
@@ -169,14 +167,14 @@ SafePthreadCond &SafePthreadSema::getSafeCond(void)
   return *spCond;
 }
 
-SpSafePthreadCond SafePthreadSema::getSafeCondSPtr(void)
+SPSafePthreadCond SafePthreadSema::getSafeCondSPtr(void)
 {
   return spCond;
 }
 
-int SafePthreadSema::values(void) const
+int SafePthreadSema::value(void) const
 {
-	return values;
+	return val;
 }
 
 bool SafePthreadSema::success(void) const

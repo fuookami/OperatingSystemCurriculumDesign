@@ -52,7 +52,7 @@
                 <entry file="file://$PROJECT_DIR$/src/pc1/PC1.h">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="620">
-                      <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+                      <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
                       <folding>
                         <element signature="e#55#84#0" expanded="true" />
                       </folding>
@@ -83,8 +83,8 @@
               <file leaf-file-name="SafePthreadExtra.cpp" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.cpp">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="817">
-                      <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+                    <state relative-caret-position="920">
+                      <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
                       <folding />
                     </state>
                   </provider>
@@ -109,8 +109,8 @@
               <file leaf-file-name="SafePthreadExtra.h" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/include/SafePthreadExtra.h">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="997">
-                      <caret line="113" column="27" lean-forward="true" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+                    <state relative-caret-position="800">
+                      <caret line="112" column="16" lean-forward="false" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
                       <folding>
                         <element signature="e#57#74#0" expanded="true" />
                       </folding>
@@ -174,8 +174,8 @@
         <option value="$PROJECT_DIR$/src/pc2/PC2.h" />
         <option value="$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.h" />
         <option value="$PROJECT_DIR$/src/SafePthreadExtra/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/include/SafePthreadExtra.h" />
         <option value="$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.cpp" />
+        <option value="$PROJECT_DIR$/include/SafePthreadExtra.h" />
       </list>
     </option>
   </component>
@@ -318,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Build All">
+  <component name="RunManager" selected="Application.pc1">
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
     </configuration>
@@ -561,20 +561,20 @@
       <updated>1498239952018</updated>
       <workItem from="1498239953247" duration="7199000" />
       <workItem from="1498299081597" duration="87000" />
-      <workItem from="1498470236975" duration="12618000" />
+      <workItem from="1498470236975" duration="13818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51807000" />
+    <option name="totallyTimeSpent" value="53007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="3771" height="2011" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30857742" sideWeight="0.3976229" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289749" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30857742" sideWeight="0.3976229" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289749" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.111924686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -908,7 +908,7 @@
     <entry file="file://$PROJECT_DIR$/src/pc1/PC1.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
-          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
           <folding>
             <element signature="e#55#84#0" expanded="true" />
           </folding>
@@ -939,21 +939,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/SafePthreadExtra.h">
+    <entry file="file://$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="113" column="27" lean-forward="true" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
-          <folding>
-            <element signature="e#57#74#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="920">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.cpp">
+    <entry file="file://$PROJECT_DIR$/include/SafePthreadExtra.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="800">
+          <caret line="112" column="16" lean-forward="false" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
+          <folding>
+            <element signature="e#57#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

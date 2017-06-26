@@ -41,7 +41,7 @@ std::shared_ptr<SafePthreadCond> SafePthreadCond::create(pthread_condattr_t *att
 }
 
 SafePthreadSema::SafePthreadSema(int _value, pthread_mutexattr_t *mutexAttr, pthread_condattr_t *condAttr)
-	: value(_value), spMutex(SafePthreadMutex::create(mutexAttr)), spCond(SafePthreadCond::create(condAttr))
+	: val(_value), spMutex(SafePthreadMutex::create(mutexAttr)), spCond(SafePthreadCond::create(condAttr))
 {
 	initSuccess = (spMutex != nullptr) && (spCond != nullptr);
 }
@@ -50,22 +50,27 @@ SafePthreadSema::~SafePthreadSema()
 {
 }
 
-bool SafePthreadSema::wait(SafePthreadSema &rop)
+bool SafePthreadSema::wait(void)
 {
+	if (!spMutex->lock())
+		return false;
 
+	--val;
+	while (val < 0)
+		if (!spCond->wait(spMutex))
+			return false;
+
+	return !spMutex->unlock();
 }
 
-bool SafePthreadSema::wait(std::shared_ptr<SafePthreadSema> &prop)
+bool SafePthreadSema::signal(void)
 {
-	wait(*prop);
-}
+	if (!spMutex->lock())
+		return false;
 
-bool SafePthreadSema::signal(SafePthreadSema &rop)
-{
+	++val;
+	if(!spCond->signal())
+		return false;
 
-}
-
-bool SafePthreadSema::signal(std::shared_ptr<SafePthreadSema> &prop)
-{
-	signal(*prop);
+	return !spMutex->unlock();
 }
