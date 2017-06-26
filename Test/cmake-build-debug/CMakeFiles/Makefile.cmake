@@ -63,7 +63,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/app.dir/DependInfo.cmake"
-  "src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/DependInfo.cmake"
   "src/mycat/CMakeFiles/mycat.dir/DependInfo.cmake"
   "src/mycp/CMakeFiles/mycp.dir/DependInfo.cmake"
   "src/myecho/CMakeFiles/myecho.dir/DependInfo.cmake"

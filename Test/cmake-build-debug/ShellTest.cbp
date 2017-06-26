@@ -89,58 +89,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="SafePthreadExtra">
-				<Option output="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/lib/libSafePthreadExtra.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra"/>
-				<Option object_output="./"/>
-				<Option type="3"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/usr/local/include/c++"/>
-					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/include"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/Makefile&quot;  VERBOSE=1 SafePthreadExtra"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="SafePthreadExtra/fast">
-				<Option output="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/lib/libSafePthreadExtra.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra"/>
-				<Option object_output="./"/>
-				<Option type="3"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/usr/local/include/c++"/>
-					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/include"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
-					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/Makefile&quot;  VERBOSE=1 SafePthreadExtra/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="mycat">
 				<Option output="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/mycat" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/"/>
@@ -454,11 +402,8 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/SafePthreadExtra/PthreadExtra.cpp">
-			<Option target="SafePthreadExtra"/>
-		</Unit>
-		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/SafePthreadExtra/PthreadExtra.h">
-			<Option target="SafePthreadExtra"/>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/SafePthreadExtra/SafePthreadExtra.cpp">
+			<Option target="pc1"/>
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/main.cpp">
 			<Option target="app"/>
@@ -471,6 +416,9 @@
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/myecho/myecho.cpp">
 			<Option target="myecho"/>
+		</Unit>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/main.cpp">
+			<Option target="pc1"/>
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.cpp">
 			<Option target="pc1"/>

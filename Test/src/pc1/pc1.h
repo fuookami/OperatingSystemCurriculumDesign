@@ -5,7 +5,7 @@
 #pragma once
 #include <iostream>
 #include <deque>
-#include "PthreadExtra.h"
+#include "../../include/SafePthreadExtra.h"
 
 class PC1Buff
 {
@@ -28,20 +28,39 @@ class PC1Buff
 class PC1
 {
  public:
-  PC1(void);
   ~PC1();
 
+  static PC1 &getReference();
   void run();
 
  private:
-  void *producer(void *args);
-  void *calculator(void *args);
-  void *customer(void *args);
+  PC1(void);
+
+  static void *producer(void *args);
+  static void *calculator(void *args);
+  static void *customer(void *args);
+
+  void printMsg(const std::string &msg);
 
  private:
   pthread_t producerTid, calculatorTid, customerTid;
-  SPSafePthreadMutex buff1Mutex, buff2Mutex;
+  SPSafePthreadMutex buff1Mutex, buff2Mutex, ioMutex;
   SPSafePthreadCond waitBuff1Full, waitBuff1Empty, waitBuff2Full, waitBuff2Empty;
   PC1Buff buff1, buff2;
-  volatile finish;
+  volatile bool producerFinish, calculatorFinish;
 };
+
+bool PC1Buff::isEmpty() const
+{
+	return buffer.empty();
+}
+
+bool PC1Buff::isFull() const
+{
+	return buffer.size() == MaxBufferSize;
+}
+
+unsigned long PC1Buff::size() const
+{
+	return buffer.size();
+}

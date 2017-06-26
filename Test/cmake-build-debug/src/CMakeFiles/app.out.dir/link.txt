@@ -1,1 +1,0 @@
-/usr/local/bin/clang++   -std=c++14 -lpthread -g   CMakeFiles/app.out.dir/main.cpp.o  -o ../app.out  -L/usr/local/lib  -L/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/lib -Wl,-rpath,/usr/local/lib:/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/lib ../lib/libMultiThreadSort.so.1.2 

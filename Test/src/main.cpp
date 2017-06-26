@@ -6,7 +6,7 @@
 #include <string>
 #include <regex>
 #include <random>
-#include "MultiThreadSort.h"
+#include "../include/MultiThreadSort.h"
 
 char szWorkDir[256] = {0} ;
 

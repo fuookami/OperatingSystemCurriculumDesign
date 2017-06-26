@@ -110,48 +110,6 @@ depend:
 	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/rule:
-	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/rule
-.PHONY : src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/rule
-
-# Convenience name for target.
-SafePthreadExtra: src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/rule
-
-.PHONY : SafePthreadExtra
-
-# fast build rule for target.
-SafePthreadExtra/fast:
-	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/build.make src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/build
-.PHONY : SafePthreadExtra/fast
-
-PthreadExtra.o: PthreadExtra.cpp.o
-
-.PHONY : PthreadExtra.o
-
-# target to build an object file
-PthreadExtra.cpp.o:
-	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/build.make src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/PthreadExtra.cpp.o
-.PHONY : PthreadExtra.cpp.o
-
-PthreadExtra.i: PthreadExtra.cpp.i
-
-.PHONY : PthreadExtra.i
-
-# target to preprocess a source file
-PthreadExtra.cpp.i:
-	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/build.make src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/PthreadExtra.cpp.i
-.PHONY : PthreadExtra.cpp.i
-
-PthreadExtra.s: PthreadExtra.cpp.s
-
-.PHONY : PthreadExtra.s
-
-# target to generate assembly for a file
-PthreadExtra.cpp.s:
-	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/build.make src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/PthreadExtra.cpp.s
-.PHONY : PthreadExtra.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -160,10 +118,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... SafePthreadExtra"
-	@echo "... PthreadExtra.o"
-	@echo "... PthreadExtra.i"
-	@echo "... PthreadExtra.s"
 .PHONY : help
 
 

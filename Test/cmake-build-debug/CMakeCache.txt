@@ -172,17 +172,11 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Dependencies for target
-MultiThreadSort_LIB_DEPENDS:STATIC=
-
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
-
-//Dependencies for target
-SafePthreadExtra_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 ShellTest_BINARY_DIR:STATIC=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug

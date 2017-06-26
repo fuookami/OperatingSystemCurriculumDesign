@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/SafePthreadExtra/SafePthreadExtra.cpp" "/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/__/SafePthreadExtra/SafePthreadExtra.cpp.o"
+  "/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/main.cpp" "/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/main.cpp.o"
   "/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.cpp" "/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/pc1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")

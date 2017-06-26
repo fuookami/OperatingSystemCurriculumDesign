@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/SafePthreadExtra.h
+memory
+-
+pthread.h
+-
+
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/include/SafePthreadExtra.h
+memory
+-
+pthread.h
+-
+
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/SafePthreadExtra/SafePthreadExtra.cpp
+SafePthreadExtra.h
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/SafePthreadExtra/SafePthreadExtra.h
+
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/main.cpp
+pc1.h
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.h
+
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.cpp
+pc1.h
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.h
+functional
+-
+
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc1/pc1.h
+iostream
+-
+deque
+-
+../../include/SafePthreadExtra.h
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/include/SafePthreadExtra.h
+

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/pc1.dir/__/SafePthreadExtra/SafePthreadExtra.cpp.o"
   "CMakeFiles/pc1.dir/pc1.cpp.o"
+  "CMakeFiles/pc1.dir/main.cpp.o"
   "../../bin/pc1.pdb"
   "../../bin/pc1"
 )

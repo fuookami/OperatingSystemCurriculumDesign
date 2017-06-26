@@ -124,19 +124,6 @@ app/fast:
 .PHONY : app/fast
 
 #=============================================================================
-# Target rules for targets named SafePthreadExtra
-
-# Build rule for target.
-SafePthreadExtra: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SafePthreadExtra
-.PHONY : SafePthreadExtra
-
-# fast build rule for target.
-SafePthreadExtra/fast:
-	$(MAKE) -f src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/build.make src/SafePthreadExtra/CMakeFiles/SafePthreadExtra.dir/build
-.PHONY : SafePthreadExtra/fast
-
-#=============================================================================
 # Target rules for targets named mycat
 
 # Build rule for target.
@@ -223,7 +210,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... app"
-	@echo "... SafePthreadExtra"
 	@echo "... mycat"
 	@echo "... mycp"
 	@echo "... myecho"

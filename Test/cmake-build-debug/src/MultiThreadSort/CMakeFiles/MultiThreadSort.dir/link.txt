@@ -1,1 +1,0 @@
-/usr/local/bin/clang++  -fPIC -std=c++14 -lpthread -g  -shared -Wl,-soname,libMultiThreadSort.so.1 -o ../../lib/libMultiThreadSort.so.1.2 CMakeFiles/MultiThreadSort.dir/MultiThreadSort.cpp.o  -L/usr/local/lib 

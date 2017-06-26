@@ -125,6 +125,60 @@ pc1/fast:
 	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/build
 .PHONY : pc1/fast
 
+__/SafePthreadExtra/SafePthreadExtra.o: __/SafePthreadExtra/SafePthreadExtra.cpp.o
+
+.PHONY : __/SafePthreadExtra/SafePthreadExtra.o
+
+# target to build an object file
+__/SafePthreadExtra/SafePthreadExtra.cpp.o:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/__/SafePthreadExtra/SafePthreadExtra.cpp.o
+.PHONY : __/SafePthreadExtra/SafePthreadExtra.cpp.o
+
+__/SafePthreadExtra/SafePthreadExtra.i: __/SafePthreadExtra/SafePthreadExtra.cpp.i
+
+.PHONY : __/SafePthreadExtra/SafePthreadExtra.i
+
+# target to preprocess a source file
+__/SafePthreadExtra/SafePthreadExtra.cpp.i:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/__/SafePthreadExtra/SafePthreadExtra.cpp.i
+.PHONY : __/SafePthreadExtra/SafePthreadExtra.cpp.i
+
+__/SafePthreadExtra/SafePthreadExtra.s: __/SafePthreadExtra/SafePthreadExtra.cpp.s
+
+.PHONY : __/SafePthreadExtra/SafePthreadExtra.s
+
+# target to generate assembly for a file
+__/SafePthreadExtra/SafePthreadExtra.cpp.s:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/__/SafePthreadExtra/SafePthreadExtra.cpp.s
+.PHONY : __/SafePthreadExtra/SafePthreadExtra.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug && $(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 pc1.o: pc1.cpp.o
 
 .PHONY : pc1.o
@@ -161,6 +215,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... pc1"
+	@echo "... __/SafePthreadExtra/SafePthreadExtra.o"
+	@echo "... __/SafePthreadExtra/SafePthreadExtra.i"
+	@echo "... __/SafePthreadExtra/SafePthreadExtra.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... pc1.o"
 	@echo "... pc1.i"
 	@echo "... pc1.s"
