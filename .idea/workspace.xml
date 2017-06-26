@@ -20,9 +20,7 @@
     <list default="true" id="346c2174-ea09-4a48-a447-ced6d9635fe1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/include/SafePthreadExtra.h" afterPath="$PROJECT_DIR$/Test/include/SafePthreadExtra.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/SafePthreadExtra/SafePthreadExtra.cpp" afterPath="$PROJECT_DIR$/Test/src/SafePthreadExtra/SafePthreadExtra.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/pc2/PC2.h" afterPath="$PROJECT_DIR$/Test/src/pc2/PC2.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -498,7 +496,7 @@
       <workItem from="1498239099602" duration="1214000" />
       <workItem from="1498241322482" duration="2122000" />
       <workItem from="1498299239541" duration="8529000" />
-      <workItem from="1498482453824" duration="3769000" />
+      <workItem from="1498482453824" duration="4228000" />
     </task>
     <task id="LOCAL-00001" summary="移植到Ubuntu Clion Clang环境">
       <created>1496159654206</created>
@@ -724,11 +722,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498485792367</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="实现并完善安全信号量类">
+      <created>1498488238185</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1498488238185</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33282000" />
+    <option name="totallyTimeSpent" value="33741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,7 +827,8 @@
     <MESSAGE value="构造pc2项目" />
     <MESSAGE value="搭建安全信号量类框架" />
     <MESSAGE value="实现安全信号量类" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现安全信号量类" />
+    <MESSAGE value="实现并完善安全信号量类" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现并完善安全信号量类" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
