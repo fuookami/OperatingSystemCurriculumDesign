@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/include/MultiThreadSort.h
+array
+-
+algorithm
+-
+
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/main.cpp
+iostream
+-
+cstring
+-
+unistd.h
+-
+vector
+-
+deque
+-
+string
+-
+regex
+-
+random
+-
+../include/MultiThreadSort.h
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/include/MultiThreadSort.h
+

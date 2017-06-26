@@ -1,0 +1,1 @@
+/usr/local/bin/clang++   -std=c++14 -lpthread -g   CMakeFiles/pc2.dir/__/PCBuffer/PCBuffer.cpp.o CMakeFiles/pc2.dir/__/SafePthreadExtra/SafePthreadExtra.cpp.o CMakeFiles/pc2.dir/PC2.cpp.o CMakeFiles/pc2.dir/main.cpp.o  -o ../../bin/pc2  -L/usr/local/lib  -L/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/lib 

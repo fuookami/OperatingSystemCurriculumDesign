@@ -10,6 +10,7 @@ add_subdirectory(myecho myecho)
 add_subdirectory(pi1 pi1)
 add_subdirectory(pi2 pi2)
 add_subdirectory(pc1 pc1)
+add_subdirectory(pc2 pc2)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/)
 add_executable(app main.cpp)
