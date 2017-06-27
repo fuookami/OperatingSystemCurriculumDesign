@@ -27,6 +27,7 @@ class RingThread
   Data data;
   pthread_t tid;
   SPSafePthreadSema sema;
+  RingThread *pNextThread;
 };
 
 class Ring
