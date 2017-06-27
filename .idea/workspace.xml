@@ -18,20 +18,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346c2174-ea09-4a48-a447-ced6d9635fe1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/include/Data.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeCache.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/ShellTest.cbp" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/ShellTest.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/cmake_install.cmake" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/Test/src/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc1/CMakeFiles/pc1.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/depend.make" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/ring/Ring.h" afterPath="$PROJECT_DIR$/Test/src/ring/Ring.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/ring/main.cpp" afterPath="$PROJECT_DIR$/Test/src/ring/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -133,8 +127,8 @@
       <file leaf-file-name="PC2.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/src/pc2/PC2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+            <state relative-caret-position="1173">
+              <caret line="109" column="31" lean-forward="false" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -519,7 +513,7 @@
       <workItem from="1498299239541" duration="8529000" />
       <workItem from="1498482453824" duration="6106000" />
       <workItem from="1498529999336" duration="23000" />
-      <workItem from="1498538180887" duration="649000" />
+      <workItem from="1498538180887" duration="765000" />
     </task>
     <task id="LOCAL-00001" summary="移植到Ubuntu Clion Clang环境">
       <created>1496159654206</created>
@@ -787,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498538202235</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="搭建data类框架，搭建ring项目框架">
+      <created>1498539412223</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1498539412223</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36291000" />
+    <option name="totallyTimeSpent" value="36407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -861,7 +862,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修正mycat的bug，将mycp重构成linux版本" />
     <MESSAGE value="更新切割函数以符合命令行参数分割的需求" />
     <MESSAGE value="添加mysys函数以调用系统指令" />
     <MESSAGE value="增加测试项目" />
@@ -886,7 +886,8 @@
     <MESSAGE value="实现pc2" />
     <MESSAGE value="完成实现pc2" />
     <MESSAGE value="完成pc2的测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成pc2的测试" />
+    <MESSAGE value="搭建data类框架，搭建ring项目框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建data类框架，搭建ring项目框架" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1144,8 +1145,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/src/pc2/PC2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="1173">
+          <caret line="109" column="31" lean-forward="false" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
           <folding />
         </state>
       </provider>
