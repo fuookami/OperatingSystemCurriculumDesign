@@ -1,8 +1,8 @@
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug/ShellSimulation/CMakeFiles/rebuild_cache.dir
-/home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug/ShellSimulation/CMakeFiles/edit_cache.dir
-/home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug/ShellSimulation/CMakeFiles/app.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug/src/ShellSimulation/CMakeFiles/rebuild_cache.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug/src/ShellSimulation/CMakeFiles/edit_cache.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug/src/ShellSimulation/CMakeFiles/app.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug/bin/mycat/CMakeFiles/rebuild_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug/bin/mycat/CMakeFiles/edit_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug/bin/mycat/CMakeFiles/mycat.dir

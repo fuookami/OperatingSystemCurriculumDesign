@@ -1,11 +1,8 @@
-//
-// Created by fuookami on 17-5-30.
-//
-
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <iostream>
+#include <cstring>
 
 int main(int argc, char *argv[])
 {

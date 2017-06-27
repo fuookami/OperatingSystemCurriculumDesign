@@ -28,13 +28,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/fuookami/文档/ProgramFile/Clion/bin/cmake/share/cmake-3.7/Modules/Platform/UnixPaths.cmake"
   "/home/fuookami/文档/ProgramFile/Clion/bin/cmake/share/cmake-3.7/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
-  "../ShellSimulation/CMakeLists.txt"
   "CMakeFiles/3.7.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeSystem.cmake"
-  "../mycat/CMakeLists.txt"
-  "../mycp/CMakeLists.txt"
-  "../myecho/CMakeLists.txt"
+  "../src/ShellSimulation/CMakeLists.txt"
+  "../src/mycat/CMakeLists.txt"
+  "../src/mycp/CMakeLists.txt"
+  "../src/myecho/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -46,7 +46,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "ShellSimulation/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/ShellSimulation/CMakeFiles/CMakeDirectoryInformation.cmake"
   "bin/mycat/CMakeFiles/CMakeDirectoryInformation.cmake"
   "bin/mycp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "bin/myecho/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -54,7 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "ShellSimulation/CMakeFiles/app.dir/DependInfo.cmake"
+  "src/ShellSimulation/CMakeFiles/app.dir/DependInfo.cmake"
   "bin/mycat/CMakeFiles/mycat.dir/DependInfo.cmake"
   "bin/mycp/CMakeFiles/mycp.dir/DependInfo.cmake"
   "bin/myecho/CMakeFiles/myecho.dir/DependInfo.cmake"

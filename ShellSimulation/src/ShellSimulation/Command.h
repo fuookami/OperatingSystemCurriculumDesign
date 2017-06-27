@@ -15,18 +15,6 @@ namespace Command
 	using CommandMap = std::unordered_map<std::string, CommandFun>;
 	static std::string dir;
 
-	enum Retcodes
-	{
-		EXIT = -1,
-		NO_ERROR = 0,
-		CMD_ERROR,
-		ARG_ERROR,
-		FILE_CAN_NOT_FOUNT,
-	    FILE_CAN_NOT_BE_READ,
-	    FILE_CAN_NOT_BE_CREATED,
-	    FILE_CAN_NOT_BE_WRITEN,
-	};
-
 	int myecho(std::ostream &out, const std::deque<std::string> &args);
 	int mycat(std::ostream &out, const std::deque<std::string> &args);
 	int mycp(std::ostream &out, const std::deque<std::string> &args);

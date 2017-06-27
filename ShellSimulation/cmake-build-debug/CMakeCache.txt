@@ -121,7 +121,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ShellSimulation
+CMAKE_PROJECT_NAME:STATIC=src/ShellSimulation
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -183,6 +183,12 @@ ShellSimulation_BINARY_DIR:STATIC=/home/fuookami/文档/Project/OperatingSystemS
 
 //Value Computed by CMake
 ShellSimulation_SOURCE_DIR:STATIC=/home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation
+
+//Value Computed by CMake
+src/ShellSimulation_BINARY_DIR:STATIC=/home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation/cmake-build-debug
+
+//Value Computed by CMake
+src/ShellSimulation_SOURCE_DIR:STATIC=/home/fuookami/文档/Project/OperatingSystemSourceDesign/ShellSimulation
 
 
 ########################

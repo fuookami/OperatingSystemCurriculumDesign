@@ -120,7 +120,7 @@ app: cmake_check_build_system
 
 # fast build rule for target.
 app/fast:
-	$(MAKE) -f ShellSimulation/CMakeFiles/app.dir/build.make ShellSimulation/CMakeFiles/app.dir/build
+	$(MAKE) -f src/ShellSimulation/CMakeFiles/app.dir/build.make src/ShellSimulation/CMakeFiles/app.dir/build
 .PHONY : app/fast
 
 #=============================================================================
