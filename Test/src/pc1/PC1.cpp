@@ -58,7 +58,7 @@ void *PC1::producer(void *args)
 		p->buff1Mutex->unlock();
 	}
 
-	std::cout << "Producer has been closed." << std::endl;
+	p->printMsg(std::string("Producer has been closed.\n"));
 	p->producerFinish = true;
 	return nullptr;
 }
@@ -94,7 +94,7 @@ void *PC1::calculator(void *args)
 		p->buff2Mutex->unlock();
 	}
 
-	std::cout << "Calculator has been closed." << std::endl;
+	p->printMsg(std::string("Calculator has been closed.\n"));
 	p->calculatorFinish = true;
 	return nullptr;
 }
@@ -117,7 +117,7 @@ void *PC1::customer(void *args)
 		p->buff2Mutex->unlock();
 	}
 
-	std::cout << "Customer has been closed." << std::endl;
+	p->printMsg(std::string("Customer has been closed.\n"));
 	return nullptr;
 }
 

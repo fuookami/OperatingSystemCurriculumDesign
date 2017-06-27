@@ -39,17 +39,75 @@ void PC2::run()
 
 void *PC2::producer(void *args)
 {
-	// todo
+	PC2 *p((PC2 *)args);
+	for (char i('a'); i != 'i'; ++i)
+	{
+		p->buff1EmptySema->wait();
+		p->buff1MutexSema->wait();
+
+		p->printMsg(std::string("Produce: put ") +
+			(char)i + std::string(" into buffer 1.\n"));
+		p->buff1.push(i);
+
+		p->buff1MutexSema->signal();
+		p->buff1FullSema->signal();
+	}
+
+	p->printMsg(std::string("Producer has been closed.\n"));
+	p->producerFinish = true;
+	return nullptr;
 }
 
 void *PC2::calculator(void *args)
 {
-	// todo
+	PC2 *p((PC2 *)args);
+	while (!p->producerFinish || !p->buff1.isEmpty())
+	{
+		p->buff1FullSema->wait();
+		p->buff1MutexSema->wait();
+
+		char i(p->buff1.pop());
+		p->printMsg(std::string("Calculator: get ") +
+			(char)i + std::string(" from buffer 1.\n"));
+
+		p->buff1MutexSema->signal();
+		p->buff1EmptySema->signal();
+
+		p->buff2EmptySeam->wait();
+		p->buff2MutexSema->wait();
+
+		i = (char)toupper(i);
+		p->printMsg(std::string("Calculator: put ") +
+			(char)i + std::string(" into buffer 2.\n"));
+		p->buff2.push(i);
+
+		p->buff2MutexSema->signal();
+		p->buff2FullSema->signal();
+	}
+
+	p->printMsg(std::string("Calculator has been closed.\n"));
+	p->calculatorFinish = true;
+	return nullptr;
 }
 
 void *PC2::customer(void *args)
 {
-	// todo
+	PC2 *p((PC2 *)args);
+	while (!p->producerFinish || !p->buff2.isEmpty())
+	{
+		p->buff2FullSema->wait();
+		p->buff2MutexSema->wait();
+
+		char i(p->buff2.pop());
+		p->printMsg(std::string("Customer: get ") +
+			(char)i + std::string(" from buffer 2.\n"));
+
+		p->buff2MutexSema->signal();
+		p->buff2EmptySeam->signal();
+	}
+
+	p->printMsg(std::string("Customer has been closed.\n"));
+	return nullptr;
 }
 
 void PC2::printMsg(const std::string &str)

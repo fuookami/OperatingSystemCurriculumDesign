@@ -36,7 +36,7 @@
             <entry file="file://$PROJECT_DIR$/src/pc2/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
-                  <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+                  <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -46,7 +46,7 @@
             <entry file="file://$PROJECT_DIR$/src/pc2/PC2.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="440">
-                  <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+                  <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
                   <folding>
                     <element signature="e#56#85#0" expanded="true" />
                   </folding>
@@ -64,7 +64,7 @@
                 <entry file="file://$PROJECT_DIR$/src/pc1/PC1.h">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="620">
-                      <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+                      <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
                       <folding>
                         <element signature="e#55#84#0" expanded="true" />
                       </folding>
@@ -75,8 +75,8 @@
               <file leaf-file-name="PC2.cpp" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/pc2/PC2.cpp">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="940">
-                      <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+                    <state relative-caret-position="436">
+                      <caret line="80" column="44" lean-forward="false" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
                       <folding>
                         <element signature="e#42#58#0" expanded="true" />
                       </folding>
@@ -92,7 +92,7 @@
                 <entry file="file://$PROJECT_DIR$/src/pc1/PC1.h">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="520">
-                      <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="52" />
+                      <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="52" />
                       <folding>
                         <element signature="e#55#84#0" expanded="true" />
                       </folding>
@@ -116,7 +116,7 @@
                 <entry file="file://$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.cpp">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="836">
-                      <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+                      <caret line="72" column="19" lean-forward="false" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
                       <folding />
                     </state>
                   </provider>
@@ -125,8 +125,8 @@
               <file leaf-file-name="PC1.cpp" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/pc1/PC1.cpp">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1056">
-                      <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+                    <state relative-caret-position="404">
+                      <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="77" selection-end-column="56" />
                       <folding>
                         <element signature="e#42#58#0" expanded="true" />
                       </folding>
@@ -372,7 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pc1">
+  <component name="RunManager" selected="Application.pc2">
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
     </configuration>
@@ -615,16 +615,15 @@
       <updated>1498239952018</updated>
       <workItem from="1498239953247" duration="7199000" />
       <workItem from="1498299081597" duration="87000" />
-      <workItem from="1498470236975" duration="17275000" />
+      <workItem from="1498470236975" duration="19598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56464000" />
+    <option name="totallyTimeSpent" value="58787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="3771" height="2011" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30857742" sideWeight="0.3976229" order="7" side_tool="false" content_ui="tabs" />
@@ -955,7 +954,7 @@
     <entry file="file://$PROJECT_DIR$/src/pc2/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -973,7 +972,7 @@
     <entry file="file://$PROJECT_DIR$/src/SafePthreadExtra/SafePthreadExtra.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
-          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+          <caret line="72" column="19" lean-forward="false" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -981,7 +980,7 @@
     <entry file="file://$PROJECT_DIR$/src/pc1/PC1.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
-          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
           <folding>
             <element signature="e#55#84#0" expanded="true" />
           </folding>
@@ -991,7 +990,7 @@
     <entry file="file://$PROJECT_DIR$/src/pc2/PC2.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
             <element signature="e#56#85#0" expanded="true" />
           </folding>
@@ -1000,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pc1/PC1.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        <state relative-caret-position="404">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="77" selection-end-column="56" />
           <folding>
             <element signature="e#42#58#0" expanded="true" />
           </folding>
@@ -1010,8 +1009,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pc2/PC2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        <state relative-caret-position="436">
+          <caret line="80" column="44" lean-forward="false" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
           <folding>
             <element signature="e#42#58#0" expanded="true" />
           </folding>
