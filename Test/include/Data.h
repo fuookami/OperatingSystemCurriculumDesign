@@ -3,42 +3,76 @@
 //
 
 #pragma once
+#include <vector>
 #include <string>
 #include <memory>
 
 class Data
 {
- public:
-  DataValue();
-  DataValue(const std::string &str);
-  DataValue(const int i);
-  DataValue(const double d);
-  ~DataValue();
-
-  inline bool isNull(void) const;
-
-  int toInteger(void) const;
-  double toDouble(void) const;
-  std::string &toString(void) const;
-
-  void set(const int i);
-  void set(const double d);
-  void set(const std::string &toString) const;
-
  private:
-  static enum
+  using DataValue = union value
+  {
+	int i;
+	double d;
+	std::shared_ptr<std::string> str;
+  };
+
+  static const enum
   {
 	Int,
 	Double,
 	String,
+    None,
   };
-  bool null;
-  unsigned int currType;
 
-  union value
-  {
-    int i;
-    double d;
-	std::shared_ptr<std::string> str;
-  };
+  static const std::vector<std::string> types =
+	  {
+		  std::string("Int"),
+	      std::string("Double"),
+	      std::string("String"),
+	      std::string("None"),
+	  };
+
+ public:
+  Data();
+  Data(const std::string &str);
+  Data(const int i);
+  Data(const double d);
+  Data(const Data &ano);
+  Data(const Data &&ano);
+  ~Data();
+
+  Data &operator=(const Data &ano);
+  Data &operator=(const Data &&ano);
+
+  inline bool isNull(void) const;
+  inline const std::string &currTypeName(void) const;
+
+  int toInteger(void) const;
+  double toDouble(void) const;
+  const std::string &toString(void) const;
+
+  void clear();
+  void set(const int i);
+  void set(const double d);
+  void set(const std::string &toString);
+
+ private:
+  void init(const Data &ano);
+  void init(const Data &&ano);
+
+ private:
+  bool null;
+  int currType;
+  DataValue val;
 };
+
+bool Data::isNull() const
+{
+	return null;
+}
+
+const std::string &Data::currTypeName(void) const
+{
+	return types[currType];
+}
