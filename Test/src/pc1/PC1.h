@@ -25,7 +25,7 @@ class PC1
 
  private:
   pthread_t producerTid, calculatorTid, customerTid;
-  SPSafePthreadMutex buff1Mutex, buff2Mutex, ioMutex;
+  SPSafePthreadMutex buff1Mutex, buff2Mutex;
   SPSafePthreadCond waitBuff1Full, waitBuff1Empty, waitBuff2Full, waitBuff2Empty;
   PCBuffer buff1, buff2;
   volatile bool producerFinish, calculatorFinish;

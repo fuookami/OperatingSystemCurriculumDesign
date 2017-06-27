@@ -26,7 +26,7 @@ class PC2
 
  private:
   pthread_t producerTid, calculatorTid, customerTid;
-  SPSafePthreadSema buff1MutexSema, buff2MutexSema, ioMutexSema;
+  SPSafePthreadSema buff1MutexSema, buff2MutexSema;
   SPSafePthreadSema buff1EmptySema, buff1FullSema;
   SPSafePthreadSema buff2EmptySeam, buff2FullSema;
   PCBuffer buff1, buff2;

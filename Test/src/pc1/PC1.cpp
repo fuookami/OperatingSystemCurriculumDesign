@@ -8,7 +8,6 @@
 PC1::PC1()
 	: buff1Mutex(SafePthreadMutex::create()),
       buff2Mutex(SafePthreadMutex::create()),
-      ioMutex(SafePthreadMutex::create()),
       waitBuff1Full(SafePthreadCond::create()),
       waitBuff1Empty(SafePthreadCond::create()),
       waitBuff2Full(SafePthreadCond::create()),
@@ -37,7 +36,7 @@ void PC1::run() {
 	pthread_join(calculatorTid, nullptr);
 	pthread_join(customerTid, nullptr);
 
-	std::cout << "All thread has been closed." << std::endl;
+	std::cout << "All threads have been closed." << std::endl;
 }
 
 void *PC1::producer(void *args)
@@ -50,16 +49,19 @@ void *PC1::producer(void *args)
 		while (p->buff1.isFull())
 			p->waitBuff1Empty->wait(p->buff1Mutex);
 
-		p->printMsg(std::string("Produce: put ") +
-			(char)i + std::string(" into buffer 1.\n"));
 		p->buff1.push(i);
+
+		if (i + 1 == 'i')
+			p->producerFinish = true;
 
 		p->waitBuff1Full->signal();
 		p->buff1Mutex->unlock();
+
+		p->printMsg(std::string("Produce: put ") +
+			(char)i + std::string(" into buffer 1.\n"));
 	}
 
 	p->printMsg(std::string("Producer has been closed.\n"));
-	p->producerFinish = true;
 	return nullptr;
 }
 
@@ -74,11 +76,12 @@ void *PC1::calculator(void *args)
 			p->waitBuff1Full->wait(p->buff1Mutex);
 
 		char i(p->buff1.pop());
-		p->printMsg(std::string("Calculator: get ") +
-			(char)i + std::string(" from buffer 1.\n"));
 
 		p->waitBuff1Empty->signal();
 		p->buff1Mutex->unlock();
+
+		p->printMsg(std::string("Calculator: get ") +
+			(char)i + std::string(" from buffer 1.\n"));
 
 		p->buff2Mutex->lock();
 
@@ -86,16 +89,19 @@ void *PC1::calculator(void *args)
 			p->waitBuff2Empty->wait(p->buff2Mutex);
 
 		i = (char)toupper(i);
-		p->printMsg(std::string("Calculator: put ") +
-			(char)i + std::string(" into buffer 2.\n"));
 		p->buff2.push(i);
+
+		if (p->producerFinish && p->buff1.isEmpty())
+			p->calculatorFinish = true;
 
 		p->waitBuff2Full->signal();
 		p->buff2Mutex->unlock();
+
+		p->printMsg(std::string("Calculator: put ") +
+			(char)i + std::string(" into buffer 2.\n"));
 	}
 
 	p->printMsg(std::string("Calculator has been closed.\n"));
-	p->calculatorFinish = true;
 	return nullptr;
 }
 
@@ -110,11 +116,12 @@ void *PC1::customer(void *args)
 			p->waitBuff2Full->wait(p->buff2Mutex);
 
 		char i(p->buff2.pop());
-		p->printMsg(std::string("Customer: get ") +
-			(char)i + std::string(" from buffer 2.\n"));
 
 		p->waitBuff2Empty->signal();
 		p->buff2Mutex->unlock();
+
+		p->printMsg(std::string("Customer: get ") +
+			(char)i + std::string(" from buffer 2.\n"));
 	}
 
 	p->printMsg(std::string("Customer has been closed.\n"));
@@ -123,7 +130,5 @@ void *PC1::customer(void *args)
 
 void PC1::printMsg(const std::string &str)
 {
-	ioMutex->lock();
 	std::cout << str;
-	ioMutex->unlock();
 }

@@ -15,6 +15,7 @@ class PCBuffer
   inline bool isEmpty(void) const;
   inline bool isFull(void) const;
   inline unsigned long size(void) const;
+  static inline unsigned long capacity();
 
   void push(const char ch);
   char pop(void);
@@ -37,4 +38,9 @@ bool PCBuffer::isFull() const
 unsigned long PCBuffer::size() const
 {
 	return buffer.size();
+}
+
+unsigned long PCBuffer::capacity()
+{
+	return MaxBufferSize;
 }

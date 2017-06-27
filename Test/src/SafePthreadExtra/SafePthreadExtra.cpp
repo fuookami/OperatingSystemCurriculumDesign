@@ -66,25 +66,21 @@ std::shared_ptr<SafePthreadSema> SafePthreadSema::createMutexTemplate(
 
 bool SafePthreadSema::wait(void)
 {
-	if (!spMutex->lock())
-		return false;
+	spMutex->lock();
 
 	--val;
 	while (val < 0)
-		if (!spCond->wait(spMutex))
-			return false;
+		spCond->wait(spMutex);
 
-	return !spMutex->unlock();
+	return spMutex->unlock();
 }
 
 bool SafePthreadSema::signal(void)
 {
-	if (!spMutex->lock())
-		return false;
+	spMutex->lock();
 
 	++val;
-	if(!spCond->signal())
-		return false;
+	spCond->signal();
 
-	return !spMutex->unlock();
+	return spMutex->unlock();
 }
