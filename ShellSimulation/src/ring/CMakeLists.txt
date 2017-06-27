@@ -1,5 +1,5 @@
 add_executable(ring
-        ../SafePthreadExtra/SafePthreadExtra.cpp
-        ../Data/Data.cpp
+        ../public/SafePthreadExtra.cpp
+        ../public/Data.cpp
         Ring.cpp main.cpp
 )

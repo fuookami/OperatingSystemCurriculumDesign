@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named app
-
-# Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 app
-.PHONY : app
-
-# fast build rule for target.
-app/fast:
-	$(MAKE) -f src/ShellSimulation/CMakeFiles/app.dir/build.make src/ShellSimulation/CMakeFiles/app.dir/build
-.PHONY : app/fast
-
-#=============================================================================
 # Target rules for targets named mycat
 
 # Build rule for target.
@@ -133,7 +120,7 @@ mycat: cmake_check_build_system
 
 # fast build rule for target.
 mycat/fast:
-	$(MAKE) -f bin/mycat/CMakeFiles/mycat.dir/build.make bin/mycat/CMakeFiles/mycat.dir/build
+	$(MAKE) -f src/mycat/CMakeFiles/mycat.dir/build.make src/mycat/CMakeFiles/mycat.dir/build
 .PHONY : mycat/fast
 
 #=============================================================================
@@ -146,7 +133,7 @@ mycp: cmake_check_build_system
 
 # fast build rule for target.
 mycp/fast:
-	$(MAKE) -f bin/mycp/CMakeFiles/mycp.dir/build.make bin/mycp/CMakeFiles/mycp.dir/build
+	$(MAKE) -f src/mycp/CMakeFiles/mycp.dir/build.make src/mycp/CMakeFiles/mycp.dir/build
 .PHONY : mycp/fast
 
 #=============================================================================
@@ -159,8 +146,86 @@ myecho: cmake_check_build_system
 
 # fast build rule for target.
 myecho/fast:
-	$(MAKE) -f bin/myecho/CMakeFiles/myecho.dir/build.make bin/myecho/CMakeFiles/myecho.dir/build
+	$(MAKE) -f src/myecho/CMakeFiles/myecho.dir/build.make src/myecho/CMakeFiles/myecho.dir/build
 .PHONY : myecho/fast
+
+#=============================================================================
+# Target rules for targets named pi1
+
+# Build rule for target.
+pi1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pi1
+.PHONY : pi1
+
+# fast build rule for target.
+pi1/fast:
+	$(MAKE) -f src/pi1/CMakeFiles/pi1.dir/build.make src/pi1/CMakeFiles/pi1.dir/build
+.PHONY : pi1/fast
+
+#=============================================================================
+# Target rules for targets named pi2
+
+# Build rule for target.
+pi2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pi2
+.PHONY : pi2
+
+# fast build rule for target.
+pi2/fast:
+	$(MAKE) -f src/pi2/CMakeFiles/pi2.dir/build.make src/pi2/CMakeFiles/pi2.dir/build
+.PHONY : pi2/fast
+
+#=============================================================================
+# Target rules for targets named pc1
+
+# Build rule for target.
+pc1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pc1
+.PHONY : pc1
+
+# fast build rule for target.
+pc1/fast:
+	$(MAKE) -f src/pc1/CMakeFiles/pc1.dir/build.make src/pc1/CMakeFiles/pc1.dir/build
+.PHONY : pc1/fast
+
+#=============================================================================
+# Target rules for targets named pc2
+
+# Build rule for target.
+pc2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pc2
+.PHONY : pc2
+
+# fast build rule for target.
+pc2/fast:
+	$(MAKE) -f src/pc2/CMakeFiles/pc2.dir/build.make src/pc2/CMakeFiles/pc2.dir/build
+.PHONY : pc2/fast
+
+#=============================================================================
+# Target rules for targets named ring
+
+# Build rule for target.
+ring: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ring
+.PHONY : ring
+
+# fast build rule for target.
+ring/fast:
+	$(MAKE) -f src/ring/CMakeFiles/ring.dir/build.make src/ring/CMakeFiles/ring.dir/build
+.PHONY : ring/fast
+
+#=============================================================================
+# Target rules for targets named app
+
+# Build rule for target.
+app: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 app
+.PHONY : app
+
+# fast build rule for target.
+app/fast:
+	$(MAKE) -f src/ShellSimulationApp/CMakeFiles/app.dir/build.make src/ShellSimulationApp/CMakeFiles/app.dir/build
+.PHONY : app/fast
 
 # Help Target
 help:
@@ -170,10 +235,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... app"
 	@echo "... mycat"
 	@echo "... mycp"
 	@echo "... myecho"
+	@echo "... pi1"
+	@echo "... pi2"
+	@echo "... pc1"
+	@echo "... pc2"
+	@echo "... ring"
+	@echo "... app"
 .PHONY : help
 
 

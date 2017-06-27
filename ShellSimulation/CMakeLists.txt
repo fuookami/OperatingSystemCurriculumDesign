@@ -1,11 +1,19 @@
 cmake_minimum_required(VERSION 3.7.2)
-project(src/ShellSimulation)
+project(ShellSimulation)
 
-set(CMAKE_C_COMPILER /usr/bin/clang)
-set(CMAKE_CXX_COMPILER /usr/bin/clang++)
-set(CMAKE_CXX_FLAGS "-std=c++11")
+include_directories("/usr/local/include/c++"
+        ${PROJECT_SOURCE_DIR}/include/)
+link_directories("/usr/local/lib"
+        ${PROJECT_BINARY_DIR}/lib/)
 
-add_subdirectory(src/ShellSimulation)
-add_subdirectory(src/mycat bin/mycat)
-add_subdirectory(src/mycp bin/mycp)
-add_subdirectory(src/myecho bin/myecho)
+set(CMAKE_C_COMPILER    "/usr/local/bin/clang")
+set(CMAKE_CXX_COMPILER  "/usr/local/bin/clang++")
+set(CMAKE_CXX_FLAGS     "-std=c++14 -lpthread")
+
+SET (CMAKE_AR      "/usr/local/bin/llvm-ar")
+SET (CMAKE_LINKER  "/usr/local/bin/llvm-ld")
+SET (CMAKE_NM      "/usr/local/bin/llvm-nm")
+SET (CMAKE_OBJDUMP "/usr/local/bin/llvm-objdump")
+SET (CMAKE_RANLIB  "/usr/local/bin/llvm-ranlib")
+
+add_subdirectory(src)

@@ -1,4 +1,4 @@
 add_executable(pc2
-        ../PCBuffer/PCBuffer.cpp
-        ../SafePthreadExtra/SafePthreadExtra.cpp
+        ../public/PCBuffer.cpp
+        ../public/SafePthreadExtra.cpp
         PC2.cpp main.cpp)
