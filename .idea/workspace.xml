@@ -18,14 +18,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346c2174-ea09-4a48-a447-ced6d9635fe1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/include/Data.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/include/PCBuffer.h" afterPath="$PROJECT_DIR$/Test/include/PCBuffer.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/SafePthreadExtra/SafePthreadExtra.cpp" afterPath="$PROJECT_DIR$/Test/src/SafePthreadExtra/SafePthreadExtra.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/pc1/PC1.cpp" afterPath="$PROJECT_DIR$/Test/src/pc1/PC1.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/pc1/PC1.h" afterPath="$PROJECT_DIR$/Test/src/pc1/PC1.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/pc2/PC2.cpp" afterPath="$PROJECT_DIR$/Test/src/pc2/PC2.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/pc2/PC2.h" afterPath="$PROJECT_DIR$/Test/src/pc2/PC2.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/ShellTest.cbp" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/ShellTest.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/cmake-build-debug/src/cmake_install.cmake" afterPath="$PROJECT_DIR$/Test/cmake-build-debug/src/cmake_install.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/Test/src/CMakeLists.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -127,8 +133,8 @@
       <file leaf-file-name="PC2.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/src/pc2/PC2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            <state relative-caret-position="833">
+              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -170,10 +176,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="3773" />
-    <option name="height" value="2019" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="3771" />
+    <option name="height" value="2011" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -513,7 +519,7 @@
       <workItem from="1498299239541" duration="8529000" />
       <workItem from="1498482453824" duration="6106000" />
       <workItem from="1498529999336" duration="23000" />
-      <workItem from="1498538180887" duration="8000" />
+      <workItem from="1498538180887" duration="649000" />
     </task>
     <task id="LOCAL-00001" summary="移植到Ubuntu Clion Clang环境">
       <created>1496159654206</created>
@@ -774,11 +780,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498530006623</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="完成pc2的测试">
+      <created>1498538202235</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1498538202235</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35650000" />
+    <option name="totallyTimeSpent" value="36291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -790,12 +803,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="3773" height="2019" extended-state="6" />
+    <frame x="65" y="-4" width="3771" height="2011" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.66984886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21453196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6703297" sideWeight="0.4521347" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6703297" sideWeight="0.5478653" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25013083" sideWeight="0.4521347" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25013083" sideWeight="0.5478653" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.49810913" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34082398" sideWeight="0.49142858" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -847,7 +861,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="将mycat重构成linux版本" />
     <MESSAGE value="修正mycat的bug，将mycp重构成linux版本" />
     <MESSAGE value="更新切割函数以符合命令行参数分割的需求" />
     <MESSAGE value="添加mysys函数以调用系统指令" />
@@ -872,7 +885,8 @@
     <MESSAGE value="搭建pc2框架" />
     <MESSAGE value="实现pc2" />
     <MESSAGE value="完成实现pc2" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成实现pc2" />
+    <MESSAGE value="完成pc2的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成pc2的测试" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1130,8 +1144,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/src/pc2/PC2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state relative-caret-position="833">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding />
         </state>
       </provider>

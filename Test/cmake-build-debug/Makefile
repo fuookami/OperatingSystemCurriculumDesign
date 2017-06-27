@@ -214,6 +214,19 @@ pc2/fast:
 	$(MAKE) -f src/pc2/CMakeFiles/pc2.dir/build.make src/pc2/CMakeFiles/pc2.dir/build
 .PHONY : pc2/fast
 
+#=============================================================================
+# Target rules for targets named ring
+
+# Build rule for target.
+ring: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ring
+.PHONY : ring
+
+# fast build rule for target.
+ring/fast:
+	$(MAKE) -f src/ring/CMakeFiles/ring.dir/build.make src/ring/CMakeFiles/ring.dir/build
+.PHONY : ring/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -230,6 +243,7 @@ help:
 	@echo "... pi2"
 	@echo "... pc1"
 	@echo "... pc2"
+	@echo "... ring"
 .PHONY : help
 
 

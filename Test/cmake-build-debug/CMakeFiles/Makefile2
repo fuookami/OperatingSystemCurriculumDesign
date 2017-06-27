@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /home/fuookami/文档/Project/OperatingSystemSourceDesign/Tes
 src/all: src/CMakeFiles/app.dir/all
 src/all: src/SafePthreadExtra/all
 src/all: src/PCBuffer/all
+src/all: src/Data/all
 src/all: src/mycat/all
 src/all: src/mycp/all
 src/all: src/myecho/all
@@ -73,6 +74,7 @@ src/all: src/pi1/all
 src/all: src/pi2/all
 src/all: src/pc1/all
 src/all: src/pc2/all
+src/all: src/ring/all
 
 .PHONY : src/all
 
@@ -80,6 +82,7 @@ src/all: src/pc2/all
 src/clean: src/CMakeFiles/app.dir/clean
 src/clean: src/SafePthreadExtra/clean
 src/clean: src/PCBuffer/clean
+src/clean: src/Data/clean
 src/clean: src/mycat/clean
 src/clean: src/mycp/clean
 src/clean: src/myecho/clean
@@ -87,12 +90,14 @@ src/clean: src/pi1/clean
 src/clean: src/pi2/clean
 src/clean: src/pc1/clean
 src/clean: src/pc2/clean
+src/clean: src/ring/clean
 
 .PHONY : src/clean
 
 # Convenience name for "preinstall" pass in the directory.
 src/preinstall: src/SafePthreadExtra/preinstall
 src/preinstall: src/PCBuffer/preinstall
+src/preinstall: src/Data/preinstall
 src/preinstall: src/mycat/preinstall
 src/preinstall: src/mycp/preinstall
 src/preinstall: src/myecho/preinstall
@@ -100,6 +105,7 @@ src/preinstall: src/pi1/preinstall
 src/preinstall: src/pi2/preinstall
 src/preinstall: src/pc1/preinstall
 src/preinstall: src/pc2/preinstall
+src/preinstall: src/ring/preinstall
 
 .PHONY : src/preinstall
 
@@ -175,6 +181,24 @@ src/PCBuffer/clean:
 src/PCBuffer/preinstall:
 
 .PHONY : src/PCBuffer/preinstall
+
+#=============================================================================
+# Directory level rules for directory src/Data
+
+# Convenience name for "all" pass in the directory.
+src/Data/all:
+
+.PHONY : src/Data/all
+
+# Convenience name for "clean" pass in the directory.
+src/Data/clean:
+
+.PHONY : src/Data/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/Data/preinstall:
+
+.PHONY : src/Data/preinstall
 
 #=============================================================================
 # Directory level rules for directory src/mycat
@@ -558,6 +582,61 @@ src/pc2/CMakeFiles/pc2.dir/clean:
 
 # clean rule for target.
 clean: src/pc2/CMakeFiles/pc2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/ring
+
+# Convenience name for "all" pass in the directory.
+src/ring/all: src/ring/CMakeFiles/ring.dir/all
+
+.PHONY : src/ring/all
+
+# Convenience name for "clean" pass in the directory.
+src/ring/clean: src/ring/CMakeFiles/ring.dir/clean
+
+.PHONY : src/ring/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/ring/preinstall:
+
+.PHONY : src/ring/preinstall
+
+#=============================================================================
+# Target rules for target src/ring/CMakeFiles/ring.dir
+
+# All Build rule for target.
+src/ring/CMakeFiles/ring.dir/all:
+	$(MAKE) -f src/ring/CMakeFiles/ring.dir/build.make src/ring/CMakeFiles/ring.dir/depend
+	$(MAKE) -f src/ring/CMakeFiles/ring.dir/build.make src/ring/CMakeFiles/ring.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles --progress-num=23,24,25,26,27 "Built target ring"
+.PHONY : src/ring/CMakeFiles/ring.dir/all
+
+# Include target in all.
+all: src/ring/CMakeFiles/ring.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/ring/CMakeFiles/ring.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 src/ring/CMakeFiles/ring.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/CMakeFiles 0
+.PHONY : src/ring/CMakeFiles/ring.dir/rule
+
+# Convenience name for target.
+ring: src/ring/CMakeFiles/ring.dir/rule
+
+.PHONY : ring
+
+# clean rule for target.
+src/ring/CMakeFiles/ring.dir/clean:
+	$(MAKE) -f src/ring/CMakeFiles/ring.dir/build.make src/ring/CMakeFiles/ring.dir/clean
+.PHONY : src/ring/CMakeFiles/ring.dir/clean
+
+# clean rule for target.
+clean: src/ring/CMakeFiles/ring.dir/clean
 
 .PHONY : clean
 

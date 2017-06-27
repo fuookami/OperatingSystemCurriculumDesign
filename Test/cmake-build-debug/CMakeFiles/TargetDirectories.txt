@@ -7,6 +7,8 @@
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/CMakeFiles/edit_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/PCBuffer/CMakeFiles/rebuild_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/PCBuffer/CMakeFiles/edit_cache.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/Data/CMakeFiles/rebuild_cache.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/Data/CMakeFiles/edit_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/mycat/CMakeFiles/rebuild_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/mycat/CMakeFiles/edit_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/mycat/CMakeFiles/mycat.dir
@@ -28,3 +30,6 @@
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/pc2/CMakeFiles/rebuild_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/pc2/CMakeFiles/edit_cache.dir
 /home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/pc2/CMakeFiles/pc2.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/CMakeFiles/rebuild_cache.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/CMakeFiles/edit_cache.dir
+/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/CMakeFiles/ring.dir

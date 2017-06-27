@@ -5,7 +5,7 @@
 		<Option title="ShellTest"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\SafePthreadExtra\;CMake Files\src\PCBuffer\;CMake Files\src\mycat\;CMake Files\src\mycp\;CMake Files\src\myecho\;CMake Files\src\pi1\;CMake Files\src\pi2\;CMake Files\src\pc1\;CMake Files\src\pc2\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\SafePthreadExtra\;CMake Files\src\PCBuffer\;CMake Files\src\Data\;CMake Files\src\mycat\;CMake Files\src\mycp\;CMake Files\src\myecho\;CMake Files\src\pi1\;CMake Files\src\pi2\;CMake Files\src\pc1\;CMake Files\src\pc2\;CMake Files\src\ring\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug"/>
@@ -453,7 +453,62 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/pc2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ring">
+				<Option output="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/ring" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include/c++"/>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/Makefile&quot;  VERBOSE=1 ring"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ring/fast">
+				<Option output="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/ring" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/bin/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include/c++"/>
+					<Add directory="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/Makefile&quot;  VERBOSE=1 ring/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/Data/Data.cpp">
+			<Option target="ring"/>
+		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/PCBuffer/PCBuffer.cpp">
 			<Option target="pc1"/>
 			<Option target="pc2"/>
@@ -461,6 +516,7 @@
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/SafePthreadExtra/SafePthreadExtra.cpp">
 			<Option target="pc1"/>
 			<Option target="pc2"/>
+			<Option target="ring"/>
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/main.cpp">
 			<Option target="app"/>
@@ -498,6 +554,15 @@
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pi2/pi2.cpp">
 			<Option target="pi2"/>
 		</Unit>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/ring/Ring.cpp">
+			<Option target="ring"/>
+		</Unit>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/ring/Ring.h">
+			<Option target="ring"/>
+		</Unit>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/ring/main.cpp">
+			<Option target="ring"/>
+		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -509,6 +574,9 @@
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/PCBuffer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\PCBuffer\"/>
+		</Unit>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/Data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Data\"/>
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/mycat/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\mycat\"/>
@@ -530,6 +598,9 @@
 		</Unit>
 		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/pc2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\pc2\"/>
+		</Unit>
+		<Unit filename="/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/src/ring/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ring\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/SafePthreadExtra/cmake_install.cmake")
   include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/PCBuffer/cmake_install.cmake")
+  include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/Data/cmake_install.cmake")
   include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/mycat/cmake_install.cmake")
   include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/mycp/cmake_install.cmake")
   include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/myecho/cmake_install.cmake")
@@ -43,6 +44,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/pi2/cmake_install.cmake")
   include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/pc1/cmake_install.cmake")
   include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/pc2/cmake_install.cmake")
+  include("/home/fuookami/文档/Project/OperatingSystemSourceDesign/Test/cmake-build-debug/src/ring/cmake_install.cmake")
 
 endif()
 
