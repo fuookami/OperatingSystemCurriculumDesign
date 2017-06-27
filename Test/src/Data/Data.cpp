@@ -4,10 +4,17 @@
 
 #include "Data.h"
 
+const std::vector<std::string> Data::types =
+	{
+		std::string("Int"),
+		std::string("Double"),
+		std::string("String"),
+		std::string("None")
+	};
+
 Data::Data()
 	: null(true), currType(None)
 {
-	val.i = 0;
 }
 
 Data::Data(const int i)
@@ -80,7 +87,7 @@ const std::string& Data::toString() const
 void Data::clear()
 {
 	if (currType == String)
-		val.str.reset(nullptr);
+		val.str.reset();
 
 	null = true;
 	currType = None;

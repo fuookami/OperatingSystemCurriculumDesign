@@ -10,14 +10,14 @@
 class Data
 {
  private:
-  using DataValue = union value
+  using DataValue = struct value
   {
-	int i;
-	double d;
-	std::shared_ptr<std::string> str;
+    int i = 0;
+    double d = 0.0;
+    std::shared_ptr<std::string> str = nullptr;
   };
 
-  static const enum
+  enum
   {
 	Int,
 	Double,
@@ -25,13 +25,7 @@ class Data
     None,
   };
 
-  static const std::vector<std::string> types =
-	  {
-		  std::string("Int"),
-	      std::string("Double"),
-	      std::string("String"),
-	      std::string("None"),
-	  };
+  static const std::vector<std::string> types;
 
  public:
   Data();

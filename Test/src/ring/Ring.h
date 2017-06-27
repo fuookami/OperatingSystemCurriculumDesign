@@ -34,12 +34,13 @@ class Ring
  public:
   ~Ring();
 
-  Ring &getReference(void);
+  static Ring &getReference(void);
   void run();
 
  private:
   Ring();
 
  private:
+  unsigned int threadNum;
   std::vector<RingThread> threads;
 };

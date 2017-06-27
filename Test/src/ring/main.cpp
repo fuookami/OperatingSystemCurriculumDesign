@@ -3,3 +3,11 @@
 //
 
 #include "Ring.h"
+
+int main(void)
+{
+	Ring &ring(Ring::getReference());
+	ring.run();
+
+	return 0;
+}

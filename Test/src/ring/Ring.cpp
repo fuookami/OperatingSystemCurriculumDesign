@@ -5,6 +5,7 @@
 #include "Ring.h"
 #include <iostream>
 #include <sstream>
+#include <random>
 
 RingThread::RingThread(unsigned int threadId)
 	: id(threadId), data(), sema(SafePthreadSema::create())
@@ -68,4 +69,39 @@ void RingThread::receive(const Data &d)
 void RingThread::printMsg(const std::string &str)
 {
 	std::cout << str;
+}
+
+Ring::Ring()
+	: threadNum(0)
+{
+	std::random_device rd;
+	threadNum = rd() % 20;
+	std::cout << "Random thread num: " << threadNum << std::endl;
+
+	for (unsigned long i(0); i != threadNum; ++i)
+		threads.push_back(RingThread((unsigned int)i + 1));
+}
+
+Ring::~Ring()
+{
+}
+
+Ring& Ring::getReference()
+{
+	static Ring ret;
+	return ret;
+}
+
+void Ring::run()
+{
+	for (unsigned long i(0); i != threadNum; ++i)
+	{
+		unsigned long j((i + 1) % threadNum);
+		threads[i].start(&threads[j]);
+	}
+
+	for (unsigned long i(0); i != threadNum; ++i)
+		threads[i].join();
+
+	std::cout << "All threads has been closed.\n" << std::endl;
 }
