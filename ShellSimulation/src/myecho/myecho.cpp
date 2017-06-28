@@ -3,13 +3,15 @@
 //
 
 #include <iostream>
+#include "RetCodes.h"
 
 int main(int argc, char *argv[])
 {
-	for (int i(1); i < argc; ++i)
-	{
-		std::cout << argv[i];
-	}
+	if (argc == 1)
+		return Retcodes::ARG_NUM_ERROR;
 
-	return 0;
+	for (int i(1); i < argc; ++i)
+		std::cout << argv[i];
+
+	return Retcodes::NO_ERROR;
 }

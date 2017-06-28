@@ -3,11 +3,15 @@
 //
 
 #include "PC2.h"
+#include "RetCodes.h"
 
-int main(void)
+int main(int argc, char *argv[])
 {
+	if (argc > 1)
+		return Retcodes::ARG_NUM_ERROR;
+
 	PC2 &pc2(PC2::getReference());
 	pc2.run();
 
-	return 0;
+	return Retcodes::NO_ERROR;
 }

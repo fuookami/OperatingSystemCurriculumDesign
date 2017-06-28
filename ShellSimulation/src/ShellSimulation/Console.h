@@ -1,23 +1,36 @@
 #pragma once
 
-#include "SingleTon.h"
 #include "Cmd.h"
+#include <iostream>
+#include <fstream>
+#include <sstream>
+
+struct pipe
+{
+  std::deque<std::string> args;
+  std::istringstream *is;
+  std::ostringstream *os;
+};
 
 class Console
 {
 	friend class SingleTon<Console>;
 
-private:
-	Console() : pCmd(nullptr) {}
+ private:
+  Console() : pCmd(nullptr) {}
 
-public:
-	~Console() {}
+ public:
+  ~Console() {}
 
-public:
-	void run(std::istream &in, std::ostream &out);
+  void run();
 
-private:
-	Cmd *pCmd;
+ private:
+  std::deque<std::deque<std::string>> split(const std::string &source);
+  std::deque<pipe> generatePipes(std::deque<std::deque<std::string>> args);
+  std::string findInput(std::deque<std::string> &args);
+  std::string findOutput(std::deque<std::string> &args);
 
-    std::deque<std::string> split(const std::string &source);
+ private:
+  Cmd *pCmd;
+  std::ofstream fout;
 };

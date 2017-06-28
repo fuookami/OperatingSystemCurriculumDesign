@@ -1,28 +1,34 @@
 #include "Command.h"
 
+#include "unistd.h"
 #include <numeric>
 
-int Command::myecho(std::ostream &out, const std::deque<std::string> &args)
+Retcode Command::myecho(std::istream &is, std::ostream &os, const std::deque<std::string> &args)
 {
-    execl((dir + "/bin/myecho/").c_str(), "myecho",
-        std::accumulate(args.cbegin(), args.cend(), std::string("")).c_str(), NULL);
+	if (args.size() == 0)
+		return Retcodes::ARG_NUM_ERROR;
+
+	for (unsigned long i(0), j(args.size()); i != j; ++i)
+		os << args[i] << ' ';
+
+	return Retcodes::NO_ERROR;
 }
 
-int Command::mycat(std::ostream &out, const std::deque<std::string> &args)
+Retcode Command::mycat(std::istream &is, std::ostream &os, const std::deque<std::string> &args)
 {
 
 }
 
-int Command::mycp(std::ostream &out, const std::deque<std::string> &args)
+Retcode Command::mycp(std::istream &is, std::ostream &os, const std::deque<std::string> &args)
 {
 
 }
 
-int Command::myexit(std::ostream &out, const std::deque<std::string> &args)
+Retcode Command::myexit(std::istream &is, std::ostream &os, const std::deque<std::string> &args)
 {
     if (args.size() == 0)
     {
-        return -1;
+        return Retcodes::EXIT;
     }
 }
 

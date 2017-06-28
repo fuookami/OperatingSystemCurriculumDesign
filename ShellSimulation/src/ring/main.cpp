@@ -3,11 +3,15 @@
 //
 
 #include "Ring.h"
+#include "RetCodes.h"
 
-int main(void)
+int main(int argc, char *argv[])
 {
+	if (argc > 1)
+		return Retcodes::ARG_NUM_ERROR;
+
 	Ring &ring(Ring::getReference());
 	ring.run();
 
-	return 0;
+	return Retcodes::NO_ERROR;
 }

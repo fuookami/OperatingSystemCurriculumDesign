@@ -8,12 +8,16 @@
 #include <string>
 #include <unistd.h>
 #include <pthread.h>
+#include "RetCodes.h"
 
 double calPiWithMultiThread(const unsigned long ed = 9999999, const unsigned int threadNum = 8);
 void *computePi(void *arg);
 
 int main(int argc, char *argv[])
 {
+	if (argc > 3)
+		return Retcodes::ARG_NUM_ERROR;
+
 	double pi(0.0);
 	if (argc == 1)
 		pi = calPiWithMultiThread();
@@ -23,7 +27,8 @@ int main(int argc, char *argv[])
 		pi = calPiWithMultiThread(std::stoul(argv[1]), (unsigned int)std::stol(argv[2]));
 
 	std::cout << pi << std::endl;
-	return 0;
+
+	return Retcodes::NO_ERROR;
 }
 
 double calPiWithMultiThread(const unsigned long ed, const unsigned int threadNum)

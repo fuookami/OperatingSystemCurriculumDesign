@@ -7,12 +7,16 @@
 #include <string>
 #include <unistd.h>
 #include <pthread.h>
+#include "RetCodes.h"
 
 double calPi(const std::array<unsigned long, 3> &nums);
 void *computePi(void *arg);
 
 int main(int argc, char *argv[])
 {
+	if (argc > 2)
+		return Retcodes::ARG_NUM_ERROR;
+
 	std::array<unsigned long, 3> nums = {1, 0, 0};
 	if (argc == 1)
 		nums[2] = 9999999;
@@ -25,7 +29,7 @@ int main(int argc, char *argv[])
 
 	std::cout << calPi(nums);
 
-	return 0;
+	return Retcodes::NO_ERROR;
 }
 
 double calPi(const std::array<unsigned long, 3> &nums)
